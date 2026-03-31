@@ -173,9 +173,12 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "1bcb12f232a0c75b",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "prueba-sync.md"
+  ]
 }
