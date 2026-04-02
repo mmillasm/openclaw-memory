@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "instagram-agent": {
+      "version": "1.0.0",
+      "installedAt": 1775097802855
+    },
+    "social-media-marketing": {
+      "version": "0.1.0",
+      "installedAt": 1775097803063
+    },
+    "seo-optimizer": {
+      "version": "0.1.0",
+      "installedAt": 1775097803388
+    },
+    "website-seo": {
+      "version": "1.0.0",
+      "installedAt": 1775097803563
+    }
+  }
+}

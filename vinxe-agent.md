@@ -5,11 +5,17 @@
 
 ## 🎯 IDENTIDAD DEL PROYECTO
 
-**Nombre:** Agencia de Automatizaciones con IA  
+**Nombre:** Vinxe  
+**Tipo:** Agencia de Automatizaciones con IA  
 **Nicho:** Corredores de propiedades en Chile  
 **Propuesta de valor:** "Automatizamos corredores de propiedades — tu asistente IA atiende leads 24/7, califica compradores y agenda visitas"  
 **Estado actual:** Pre-validación (listo para contactar agencias)  
 **Fecha de inicio:** Abril 2026
+
+**Presencia Digital:**
+- **Sitio web:** https://vynxe.cl
+- **Instagram:** @vinxe.cl
+- **Email:** hola@vynxe.cl
 
 ---
 
@@ -148,16 +154,25 @@
 **Total:** ~$100-$200 USD/mes por agencia
 
 ### Skills Instaladas
+**Producto & Automatización:**
 - client-intake-bot-pro
 - voiceflow
 - whatsapp-business-api
 - n8n
 - lead-scorer
+
+**Marketing & Ventas:**
 - proposal-writer
-- markdown
-- send-email
 - follow-up-sequence-writer
 - sales-pipeline-tracker
+- instagram-agent
+- social-media-marketing
+- website-seo
+- seo-optimizer
+
+**Utilidades:**
+- markdown
+- send-email
 - airtable-automation
 - airtable-integration
 
@@ -241,6 +256,65 @@
 
 ---
 
+## 📱 MARKETING DIGITAL
+
+### Landing Page (vynxe.cl)
+**Estado:** Completada y lista para deploy  
+**Archivo:** `vinxe-landing-inmobiliaria.html`
+
+**SEO implementado:**
+- Title: "Vinxe — Chatbots IA para Corredores de Propiedades | Chile" (58 chars)
+- Meta description optimizado (155 chars)
+- Open Graph tags para Facebook/LinkedIn
+- Twitter Cards
+- Schema.org: Organization + LocalBusiness + FAQPage
+- Sitemap.xml + robots.txt
+
+**Estructura de la landing:**
+1. Hero — "Tu Asistente Virtual Inmobiliario Que Nunca Duerme"
+2. Stats — 24/7, 10x leads, 0 perdidos, 3h ahorradas
+3. Problema — WhatsApp explota, respondes tarde, citas se pisan
+4. Solución — 6 features específicas inmobiliarias
+5. Cómo funciona — 4 pasos sin técnico
+6. Pricing — Starter $199K / Pro $399K / Agency $799K
+7. Testimonial — Caso Pedro Gómez
+8. FAQ — 5 preguntas con Schema markup
+9. CTA — Demo gratuita
+
+**Keywords target:**
+- chatbot inmobiliaria chile
+- automatización corredores propiedades
+- WhatsApp Business inmobiliaria
+- IA inmobiliaria Chile
+
+### Instagram (@vinxe.cl)
+**Estado:** Estrategia y contenido creado  
+**Archivo:** `vinxe-instagram-contenido.md`
+
+**Perfil optimizado:**
+- Username: @vinxe.cl
+- Nombre: Vinxe | IA para Inmobiliarias
+- Bio: Chatbots IA para Corredores de Propiedades / Chile / Especialistas inmobiliarios
+
+**5 Reels creados (Semana 1):**
+1. **Mistake Hook** — "Deja de hacer esto ☠️" (El error que te cuesta clientes)
+2. **Secret Hook** — "3 herramientas que las agencias no quieren que sepas"
+3. **Story+Result** — Caso Pedro (12→120 leads/día)
+4. **Tutorial** — "Cómo crear un chatbot en 3 pasos"
+5. **Mito vs Realidad** — Desmintiendo prejuicios sobre chatbots
+
+**Calendario semanal:**
+- 3 Reels (Lun, Mié, Jue)
+- 2 Carousels (Mar, Sáb)
+- 7 Stories diarios
+
+**Métricas objetivo Semana 1:**
+- Followers: 50-100
+- Views por Reel: 500+
+- DMs recibidos: 5+
+
+---
+
 ## 📁 ARCHIVOS DEL PROYECTO
 
 ### Documentos Principales
@@ -249,6 +323,17 @@
 - `validation-kit.md` - Kit completo de validación
 - `cold-email-workflow.md` - Sistema de outreach
 - `airtable-integration.md` - Guía integración Airtable
+
+### Marketing Digital
+- `vinxe-landing-inmobiliaria.html` - Landing page completa (SEO optimizada)
+- `vinxe-sitemap.xml` - Sitemap para Google Search Console
+- `vinxe-robots.txt` - Robots.txt con referencia al sitemap
+- `vinxe-landing-README.md` - Documentación de la landing
+- `vinxe-instagram-contenido.md` - Contenido Instagram Semana 1
+
+### Knowledge Base
+- `vinxe-agent.md` - Este archivo (knowledge base completo)
+- `vinxe-agent-quickref.md` - Quick reference card
 
 ### Sistemas Implementados
 - `cold-email-system/` - Scripts, templates, CSV
@@ -338,9 +423,10 @@ El flujo de conversación original tenía un error crítico: el bot hacía pregu
 
 - **2026-03-31:** Configuración OpenClaw, Mission Control reparado
 - **2026-04-01:** Investigación de mercado completada, 20 agencias identificadas
-- **2026-04-02:** Sistema completo creado (propuesta, flujos, outreach, Airtable)
+- **2026-04-02 AM:** Sistema completo creado (propuesta, flujos, outreach, Airtable)
+- **2026-04-02 PM:** Rebrand a Vinxe, landing page inmobiliaria SEO-optimizada, contenido Instagram Semana 1
 
-**Último backup:** Git commit `99ad967` - 139 archivos, 16,459 líneas
+**Último backup:** Git commit (pendiente) - Landing + Instagram + skills nuevas
 
 ---
 
