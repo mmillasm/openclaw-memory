@@ -16,6 +16,26 @@
     "website-seo": {
       "version": "1.0.0",
       "installedAt": 1775097803563
+    },
+    "prompt-enhancer": {
+      "version": "1.0.1",
+      "installedAt": 1775128836918
+    },
+    "ai-image-generation-prompts-9142af54": {
+      "version": "1.0.0",
+      "installedAt": 1775128837199
+    },
+    "brand-identity": {
+      "version": "0.1.0",
+      "installedAt": 1775132324610
+    },
+    "design-system-creation": {
+      "version": "1.0.0",
+      "installedAt": 1775132324648
+    },
+    "flwr-branding-studio-kit": {
+      "version": "1.0.0",
+      "installedAt": 1775132325649
     }
   }
 }
