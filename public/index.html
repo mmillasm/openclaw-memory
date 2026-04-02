@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Gratuitos para Corredores | Vinxe</title>
+    <meta name="description" content="Descarga gratis: checklists, calculadoras, guías y templates para corredores de propiedades. Mejora tu atención al cliente sin ser esclavo de tu celular.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        vinxe: {
+                            green: '#4ADE80',
+                            dark: '#2D3436',
+                            light: '#E6F7FF',
+                            accent: '#F0FDF4'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #E6F7FF 0%, #F0FDF4 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .fade-in { animation: fadeIn 0.6s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body class="bg-gray-50 text-vinxe-dark">
+    
+    <!-- Header -->
+    <header class="gradient-bg py-6 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-bold text-vinxe-green">vinxe</span>
+                <span class="hidden sm:inline text-gray-500">|</span>
+                <span class="hidden sm:inline text-sm text-gray-600">Recursos para Corredores</span>
+            </div>
+            <a href="https://vynxe.cl" class="text-sm text-gray-600 hover:text-vinxe-green transition">vynxe.cl →</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg pt-16 pb-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center fade-in">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-vinxe-dark mb-6 leading-tight">
+                Recursos gratuitos para<br>
+                <span class="text-vinxe-green">corredores de propiedades</span>
+            </h1>
+            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                Herramientas prácticas para organizar tu atención al cliente, 
+                responder más rápido y cerrar más ventas sin ser esclavo de tu celular.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
+                <span class="flex items-center"><svg class="w-5 h-5 text-vinxe-green mr-1" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> 100% Gratis</span>
+                <span class="flex items-center"><svg class="w-5 h-5 text-vinxe-green mr-1" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Sin jerga técnica</span>
+                <span class="flex items-center"><svg class="w-5 h-5 text-vinxe-green mr-1" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Listos para usar</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Capture Modal (Hidden by default) -->
+    <div id="captureModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-8 relative">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+            
+            <div class="text-center mb-6">
+                <div id="modalIcon" class="text-5xl mb-4">📋</div>
+                <h3 id="modalTitle" class="text-2xl font-bold text-vinxe-dark mb-2">Descargar Checklist</h3>
+                <p id="modalDesc" class="text-gray-600">Ingresa tu email para recibir el recurso gratuito.</p>
+            </div>
+            
+            <form id="leadForm" onsubmit="handleSubmit(event)" class="space-y-4">
+                <!-- Honeypot field for spam protection -->
+                <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+                
+                <div>
+                    <label for="nombre" class="block text-sm font-medium text-gray-700 mb-1">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required 
+                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-vinxe-green focus:border-transparent transition"
+                        placeholder="Tu nombre">
+                </div>
+                
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                    <input type="email" id="email" name="email" required 
+                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-vinxe-green focus:border-transparent transition"
+                        placeholder="tu@email.com">
+                </div>
+                
+                <input type="hidden" id="recurso" name="recurso" value="">
+                
+                <button type="submit" 
+                    class="w-full bg-vinxe-green hover:bg-green-500 text-white font-semibold py-3 px-6 rounded-lg transition transform hover:scale-105">
+                    Descargar Ahora →
+                </button>
+            </form>
+            
+            <p class="text-xs text-gray-500 text-center mt-4">
+                Respetamos tu privacidad. No enviamos spam.
+            </p>
+        </div>
+    </div>
+
+    <!-- Resources Grid -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-vinxe-dark mb-12">Elige tu recurso gratuito</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- Resource 1: Checklist -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg card-hover border border-gray-100">
+                    <div class="text-5xl mb-4">📋</div>
+                    <h3 class="text-xl font-bold text-vinxe-dark mb-3">Checklist: ¿Tu Agencia Está Dejando Pasar Clientes?</h3>
+                    <p class="text-gray-600 mb-6">
+                        15 preguntas de auto-evaluación. Descubre en 5 minutos cuántos clientes potenciales 
+                        estás perdiendo sin darte cuenta.
+                    </p>
+                    <ul class="text-sm text-gray-500 mb-6 space-y-2">
+                        <li class="flex items-center"><svg class="w-4 h-4 text-vinxe-green mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Evaluación completa</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 text-vinxe-green mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Resultados personalizados</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 text-vinxe-green mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Recomendaciones incluidas</li>
+                    </ul>
+                    <button onclick="openModal('checklist', '📋', 'Descargar Checklist')" 
+                        class="w-full bg-vinxe-dark hover:bg-gray-800 text-white font-semibold py-3 px-6 rounded-lg transition">
+                        Descargar Gratis →
+                    </button>
+                </div>
+
+                <!-- Resource 2: Calculadora -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg card-hover border border-gray-100">
+                    <div class="text-5xl mb-4">🧮</div>
+                    <h3 class="text-xl font-bold text-vinxe-dark mb-3">Calculadora: ¿Cuánto Dinero Dejas de Ganar?</h3>
+                    <p class="text-gray-600 mb-6">
+                        Responde 6 preguntas simples y descubre cuántas ventas se te escapan por no responder a tiempo. 
+                        Incluye proyección anual.
+                    </p>
+                    <ul class="text-sm text-gray-500 mb-6 space-y-2">
+                        <li class="flex items-center"><svg class="w-4 h-4 text-vinxe-green mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Cálculo personalizado</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 text-vinxe-green mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Proyección mensual/anual</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 text-vinxe-green mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Potencial de recuperación</li>
+                    </ul>
+                    <button onclick="openModal('calculadora', '🧮', 'Descargar Calculadora')" 
+                        class="w-full bg-vinxe-dark hover:bg-gray-800 text-white font-semibold py-3 px-6 rounded-lg transition">
+                        Descargar Gratis →
+                    </button>
+                </div>
+
+                <!-- Resource 3: Guía -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg card-hover border border-gray-100">
+                    <div class="text-5xl mb-4">📘</div>
+                    <h3 class="text-xl font-bold text-vinxe-dark mb-3">Guía: Cómo Atender Clientes Rápido</h3>
+                    <p class="text-gray-600 mb-6">
+                        Estrategias probadas por corredores en Chile. Aprende a organizar tu atención al cliente 
+                        en 3 pasos simples.
+                    </p>
+                    <ul class="text-sm text-gray-500 mb-6 space-y-2">
+                        <li class="flex items-center"><svg class="w-4 h-4 text-vinxe-green mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Guía completa (20+ páginas)</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 text-vinxe-green mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Sistema de 4 preguntas mágicas</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 text-vinxe-green mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Ejemplos reales incluidos</li>
+                    </ul>
+                    <button onclick="openModal('guia', '📘', 'Descargar Guía')" 
+                        class="w-full bg-vinxe-dark hover:bg-gray-800 text-white font-semibold py-3 px-6 rounded-lg transition">
+                        Descargar Gratis →
+                    </button>
+                </div>
+
+                <!-- Resource 4: Templates -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg card-hover border border-gray-100">
+                    <div class="text-5xl mb-4">💬</div>
+                    <h3 class="text-xl font-bold text-vinxe-dark mb-3">10 Mensajes Listos para WhatsApp</h3>
+                    <p class="text-gray-600 mb-6">
+                        Copia, pega, personaliza. 10 templates de mensajes de WhatsApp listos para usar. 
+                        Desde la primera respuesta hasta el cierre de venta.
+                    </p>
+                    <ul class="text-sm text-gray-500 mb-6 space-y-2">
+                        <li class="flex items-center"><svg class="w-4 h-4 text-vinxe-green mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> 10 templates completos</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 text-vinxe-green mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Consejos de personalización</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 text-vinxe-green mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg> Ahorra horas cada semana</li>
+                    </ul>
+                    <button onclick="openModal('templates', '💬', 'Descargar Templates')" 
+                        class="w-full bg-vinxe-dark hover:bg-gray-800 text-white font-semibold py-3 px-6 rounded-lg transition">
+                        Descargar Gratis →
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-2xl font-bold text-vinxe-dark mb-8">Descargado por corredores de todo Chile</h2>
+            <div class="grid grid-cols-3 gap-8">
+                <div>
+                    <div class="text-3xl font-bold text-vinxe-green">500+</div>
+                    <div class="text-sm text-gray-600">Descargas</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-vinxe-green">4.9★</div>
+                    <div class="text-sm text-gray-600">Valoración</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-vinxe-green">100%</div>
+                    <div class="text-sm text-gray-600">Gratis</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 gradient-bg">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-vinxe-dark mb-4">¿Quieres que los mensajes se envíen solos?</h2>
+            <p class="text-lg text-gray-600 mb-8">
+                Estos recursos te ahorran tiempo, pero aún necesitas copiar y pegar manualmente. 
+                Con un sistema automatizado, tú solo apareces para cerrar ventas.
+            </p>
+            <a href="https://vynxe.cl" class="inline-block bg-vinxe-green hover:bg-green-500 text-white font-bold py-4 px-8 rounded-lg transition transform hover:scale-105 shadow-lg">
+                Conocer Vinxe →
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-vinxe-dark text-white py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <div class="text-2xl font-bold text-vinxe-green mb-4">vinxe</div>
+                    <p class="text-gray-400 text-sm">
+                        Asistentes virtuales para corredores de propiedades en Chile.
+                        Atiende clientes 24/7 sin ser esclavo de tu celular.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Recursos</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#" onclick="openModal('checklist', '📋', 'Descargar Checklist')" class="hover:text-white transition">Checklist</a></li>
+                        <li><a href="#" onclick="openModal('calculadora', '🧮', 'Descargar Calculadora')" class="hover:text-white transition">Calculadora</a></li>
+                        <li><a href="#" onclick="openModal('guia', '📘', 'Descargar Guía')" class="hover:text-white transition">Guía Práctica</a></li>
+                        <li><a href="#" onclick="openModal('templates', '💬', 'Descargar Templates')" class="hover:text-white transition">Templates WhatsApp</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contacto</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="mailto:hola@vynxe.cl" class="hover:text-white transition">hola@vynxe.cl</a></li>
+                        <li><a href="https://vynxe.cl" class="hover:text-white transition">vynxe.cl</a></li>
+                        <li><a href="https://instagram.com/vinxe.cl" class="hover:text-white transition">@vinxe.cl</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-500">
+                © 2026 Vinxe. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Modal functions
+        function openModal(recurso, icon, title) {
+            document.getElementById('recurso').value = recurso;
+            document.getElementById('modalIcon').textContent = icon;
+            document.getElementById('modalTitle').textContent = title;
+            document.getElementById('captureModal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('captureModal').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal on outside click
+        document.getElementById('captureModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
+        // Handle form submission
+        function handleSubmit(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(e.target);
+            const nombre = formData.get('nombre');
+            const email = formData.get('email');
+            const recurso = formData.get('recurso');
+            const honeypot = formData.get('website');
+            
+            // Spam check
+            if (honeypot) {
+                console.log('Spam detected');
+                return;
+            }
+            
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert('Por favor ingresa un email válido');
+                return;
+            }
+            
+            // Store lead data (in production, send to Airtable or backend)
+            const leadData = {
+                nombre,
+                email,
+                recurso,
+                fecha: new Date().toISOString(),
+                ip: 'anonymous', // In production, get from server
+                userAgent: navigator.userAgent
+            };
+            
+            // Log to console (replace with actual API call)
+            console.log('Lead capturado:', leadData);
+            
+            // Save to localStorage for demo
+            let leads = JSON.parse(localStorage.getItem('vinxe_leads') || '[]');
+            leads.push(leadData);
+            localStorage.setItem('vinxe_leads', JSON.stringify(leads));
+            
+            // Redirect to thank you page with download
+            window.location.href = `gracias.html?recurso=${recurso}&email=${encodeURIComponent(email)}`;
+        }
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>

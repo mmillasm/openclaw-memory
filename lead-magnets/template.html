@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$title$</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2cm;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Cover Page */
+        .cover {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, #E6F7FF 0%, #F0FDF4 100%);
+            padding: 3cm;
+            page-break-after: always;
+        }
+        
+        .cover-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        
+        .cover h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #2D3436;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+        
+        .cover .subtitle {
+            font-size: 1.1rem;
+            color: #636E72;
+            margin-bottom: 2rem;
+        }
+        
+        .cover .description {
+            font-size: 1rem;
+            color: #636E72;
+            max-width: 80%;
+            margin-bottom: 3rem;
+        }
+        
+        .cover-brand {
+            margin-top: auto;
+            padding-top: 2rem;
+        }
+        
+        .cover-brand .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #4ADE80;
+            margin-bottom: 0.5rem;
+        }
+        
+        .cover-brand .tagline {
+            font-size: 0.9rem;
+            color: #636E72;
+        }
+        
+        /* Content */
+        .content {
+            padding: 0;
+        }
+        
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #2D3436;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            border-bottom: 3px solid #4ADE80;
+            padding-bottom: 0.5rem;
+        }
+        
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #2D3436;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #4ADE80;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+        
+        /* Checkboxes */
+        input[type="checkbox"] {
+            width: 1.2rem;
+            height: 1.2rem;
+            margin-right: 0.5rem;
+            accent-color: #4ADE80;
+        }
+        
+        /* Lists */
+        ul, ol {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Blockquotes / Highlight boxes */
+        blockquote, .highlight-box {
+            background: #F8F9FA;
+            border-left: 4px solid #4ADE80;
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+        }
+        
+        /* Code blocks for templates */
+        pre {
+            background: #F8F9FA;
+            border: 1px solid #E9ECEF;
+            border-radius: 8px;
+            padding: 1rem;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin: 1rem 0;
+        }
+        
+        code {
+            font-family: 'Monaco', 'Menlo', monospace;
+            background: #F8F9FA;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+        
+        th, td {
+            border: 1px solid #E9ECEF;
+            padding: 0.75rem;
+            text-align: left;
+        }
+        
+        th {
+            background: #F8F9FA;
+            font-weight: 600;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #E6F7FF 0%, #F0FDF4 100%);
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .cta-section h3 {
+            color: #2D3436;
+            margin-top: 0;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #4ADE80;
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+        
+        /* Footer */
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid #E9ECEF;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #636E72;
+        }
+        
+        .footer-brand {
+            font-weight: 700;
+            color: #4ADE80;
+        }
+        
+        /* Emojis */
+        .emoji {
+            font-size: 1.2em;
+        }
+        
+        /* Page breaks */
+        .page-break {
+            page-break-before: always;
+        }
+        
+        /* Input fields for calculator */
+        .input-field {
+            border: 2px solid #4ADE80;
+            border-radius: 8px;
+            padding: 0.5rem 1rem;
+            font-size: 1.1rem;
+            width: 150px;
+            text-align: center;
+            margin: 0 0.5rem;
+        }
+        
+        /* Results boxes */
+        .result-box {
+            background: #F0FDF4;
+            border: 2px solid #4ADE80;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            text-align: center;
+        }
+        
+        .result-box .number {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #4ADE80;
+        }
+        
+        .result-box .label {
+            font-size: 0.9rem;
+            color: #636E72;
+        }
+        
+        /* Horizontal rules */
+        hr {
+            border: none;
+            border-top: 2px solid #E9ECEF;
+            margin: 2rem 0;
+        }
+        
+        /* Strong emphasis */
+        strong {
+            color: #2D3436;
+            font-weight: 600;
+        }
+        
+        /* Section separator */
+        .section-separator {
+            text-align: center;
+            margin: 2rem 0;
+            color: #4ADE80;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="cover">
+        <div class="cover-icon">$icon$</div>
+        <h1>$title$</h1>
+        <p class="subtitle">$subtitle$</p>
+        <p class="description">$description$</p>
+        <div class="cover-brand">
+            <div class="logo">vinxe</div>
+            <div class="tagline">Asistentes Virtuales para Corredores de Propiedades</div>
+        </div>
+    </div>
+    <div class="content">
+        $body$
+    </div>
+    <div class="footer">
+        <p><span class="footer-brand">vinxe</span> — www.vynxe.cl — hola@vynxe.cl — @vinxe.cl</p>
+        <p>© 2026 Vinxe. Recurso gratuito para corredores de propiedades.</p>
+    </div>
+</body>
+</html>
