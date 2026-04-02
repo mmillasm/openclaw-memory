@@ -8,14 +8,21 @@
 **Nombre:** Vinxe  
 **Tipo:** Agencia de Automatizaciones con IA  
 **Nicho:** Corredores de propiedades en Chile  
-**Propuesta de valor:** "Automatizamos corredores de propiedades — tu asistente IA atiende leads 24/7, califica compradores y agenda visitas"  
+**Propuesta de valor:** "Tu asistente virtual inmobiliario que atiende clientes 24/7, separa a los curiosos de los que quieren comprar, y agenda visitas automáticamente"  
 **Estado actual:** Pre-validación (listo para contactar agencias)  
 **Fecha de inicio:** Abril 2026
 
 **Presencia Digital:**
-- **Sitio web:** https://vynxe.cl
-- **Instagram:** @vinxe.cl
+- **Sitio web:** https://vynxe.cl (landing lista, pendiente deploy)
+- **Instagram:** @vinxe.cl (contenido creado, pendiente cuenta)
 - **Email:** hola@vynxe.cl
+
+**Identidad de Marca (Actualizado):**
+- **Logo:** Wordmark puro "vinxe" en minúscula (sin iconos, sin casas)
+- **Tipografía:** Inter (display + body)
+- **Colores:** Indigo #6366F1, Violeta #8B5CF6
+- **Voz:** Directa, Útil, Humana
+- **Regla:** Sin jerga técnica ("clientes" no "leads", "asistente" no "chatbot")
 
 ---
 
@@ -153,7 +160,8 @@
 
 **Total:** ~$100-$200 USD/mes por agencia
 
-### Skills Instaladas
+### Skills Instaladas (20 total)
+
 **Producto & Automatización:**
 - client-intake-bot-pro
 - voiceflow
@@ -169,6 +177,13 @@
 - social-media-marketing
 - website-seo
 - seo-optimizer
+
+**Branding & Diseño:**
+- flwr-branding-studio-kit
+- brand-identity
+- design-system-creation
+- prompt-enhancer
+- ai-image-generation-prompts
 
 **Utilidades:**
 - markdown
@@ -258,6 +273,37 @@
 
 ## 📱 MARKETING DIGITAL
 
+### Sistema de Diseño Completo
+**Estado:** Finalizado y documentado
+
+**Identidad de Marca:**
+- **Archivo:** `vinxe-brand-identity.md`
+- **Logo:** Wordmark puro "vinxe" en minúscula (sin iconos, sin casas)
+- **Tipografía:** Inter (Google Fonts)
+- **Paleta:** Indigo #6366F1, Violeta #8B5CF6, Near Black #1F2937
+- **Voz:** Directa, Útil, Humana
+- **Regla clave:** Sin jerga técnica ("clientes" no "leads")
+
+**Design Tokens:**
+- **CSS:** `vinxe-design-tokens.css` — Variables CSS completas
+- **Tailwind:** `vinxe-tailwind.config.js` — Configuración lista para usar
+- **Figma:** `vinxe-figma-structure.md` — Estructura de páginas + wireframes
+
+**Guía de Voz por Canal:**
+- **Archivo:** `vinxe-voice-guide.md`
+- Emails: 4 templates (inicial + 3 follow-ups)
+- Instagram: Captions, stories, carousels
+- Landing: Copy por sección
+- WhatsApp: Respuestas del bot
+
+**Prompts de Imágenes:**
+- **Archivo:** `vinxe-image-prompts-branded.md`
+- Logo wordmark (3 versiones)
+- OG Image 1200x630
+- Hero image landing
+- 5 Thumbnails Reels
+- 6 Iconos de features
+
 ### Landing Page (vynxe.cl)
 **Estado:** Completada y lista para deploy  
 **Archivo:** `vinxe-landing-inmobiliaria.html`
@@ -288,60 +334,75 @@
 - IA inmobiliaria Chile
 
 ### Instagram (@vinxe.cl)
-**Estado:** Estrategia y contenido creado  
-**Archivo:** `vinxe-instagram-contenido.md`
+**Estado:** Estrategia y contenido creado (2 versiones)
 
 **Perfil optimizado:**
 - Username: @vinxe.cl
-- Nombre: Vinxe | IA para Inmobiliarias
-- Bio: Chatbots IA para Corredores de Propiedades / Chile / Especialistas inmobiliarios
+- Nombre: Vinxe | Asistente Virtual para Inmobiliarias
+- Bio: 🤖 Tu asistente responde WhatsApp por ti / 📍 Especialistas en corredores de Chile / ⚡ Atiende clientes 24/7
 
-**5 Reels creados (Semana 1):**
-1. **Mistake Hook** — "Deja de hacer esto ☠️" (El error que te cuesta clientes)
-2. **Secret Hook** — "3 herramientas que las agencias no quieren que sepas"
-3. **Story+Result** — Caso Pedro (12→120 leads/día)
-4. **Tutorial** — "Cómo crear un chatbot en 3 pasos"
-5. **Mito vs Realidad** — Desmintiendo prejuicios sobre chatbots
+**5 Reels creados (Versión Simple - sin tecnicismos):**
+1. **"El WhatsApp te Quita el Sueño"** — Storytelling problema/solución
+2. **"Lo que las Grandes Agencias No Quieren que Sepas"** — Revelación valor
+3. **"Antes y Después — Un Caso Real"** — Prueba social con números
+4. **"Cómo Funciona — En 3 Pasos Simples"** — Tutorial accesible
+5. **"Mitos vs Realidad"** — Desmintiendo objeciones
+
+**Diccionario lenguaje simple:**
+- ❌ "Leads" → ✅ "Clientes potenciales"
+- ❌ "Chatbot" → ✅ "Asistente virtual"
+- ❌ "Calificación" → ✅ "Separa a los que quieren comprar"
 
 **Calendario semanal:**
 - 3 Reels (Lun, Mié, Jue)
 - 2 Carousels (Mar, Sáb)
 - 7 Stories diarios
 
-**Métricas objetivo Semana 1:**
-- Followers: 50-100
-- Views por Reel: 500+
-- DMs recibidos: 5+
+**Archivos:**
+- `vinxe-instagram-simple.md` — Versión accesible (recomendada)
+- `vinxe-instagram-contenido.md` — Versión técnica (backup)
 
 ---
 
-## 📁 ARCHIVOS DEL PROYECTO
+## 📁 ARCHIVOS DEL PROYECTO (Índice Completo)
 
-### Documentos Principales
+### Dashboard Maestro
+- `VINXE-DASHBOARD.md` - Índice central de todo el proyecto
+
+### Producto
 - `propuesta-mvp-chatbot-corredores.md` - Propuesta comercial
 - `mvp-chatbot-corredores.md` - Flujo de conversación
 - `validation-kit.md` - Kit completo de validación
+
+### Outreach
 - `cold-email-workflow.md` - Sistema de outreach
-- `airtable-integration.md` - Guía integración Airtable
+- `cold-email-system/agencias.csv` - 10 agencias priorizadas
+- `cold-email-system/templates/` - 4 email templates
+- `cold-email-system/airtable/` - Scripts de integración
 
 ### Marketing Digital
-- `vinxe-landing-inmobiliaria.html` - Landing page completa (SEO optimizada)
-- `vinxe-sitemap.xml` - Sitemap para Google Search Console
-- `vinxe-robots.txt` - Robots.txt con referencia al sitemap
-- `vinxe-landing-README.md` - Documentación de la landing
-- `vinxe-instagram-contenido.md` - Contenido Instagram Semana 1
+- `vinxe-landing-inmobiliaria.html` - Landing page (SEO optimizada)
+- `vinxe-sitemap.xml` + `vinxe-robots.txt` - SEO técnico
+- `vinxe-landing-README.md` - Guía de la landing
+- `vinxe-instagram-simple.md` - Contenido Instagram (lenguaje simple)
+- `vinxe-instagram-contenido.md` - Contenido Instagram (técnico)
+
+### Identidad de Marca & Diseño
+- `vinxe-brand-identity.md` - Guía de identidad completa
+- `vinxe-design-tokens.css` - Tokens CSS
+- `vinxe-tailwind.config.js` - Configuración Tailwind
+- `vinxe-figma-structure.md` - Estructura Figma
+- `vinxe-voice-guide.md` - Guía de voz por canal
+- `vinxe-image-prompts-branded.md` - Prompts de imágenes
 
 ### Knowledge Base
-- `vinxe-agent.md` - Este archivo (knowledge base completo)
+- `vinxe-agent.md` - Este archivo
 - `vinxe-agent-quickref.md` - Quick reference card
 
-### Sistemas Implementados
-- `cold-email-system/` - Scripts, templates, CSV
-- `cold-email-system/airtable/` - Integración Python
-
 ### Configuraciones
-- Email SMTP: disenoxplain@gmail.com (Gmail)
-- Variables en: ~/.openclaw/openclaw.json
+- Email SMTP: disenoxplain@gmail.com
+- Airtable: https://airtable.com/apptwVpujukA0sS1U
+- Variables: ~/.openclaw/openclaw.json
 
 ---
 
@@ -423,10 +484,15 @@ El flujo de conversación original tenía un error crítico: el bot hacía pregu
 
 - **2026-03-31:** Configuración OpenClaw, Mission Control reparado
 - **2026-04-01:** Investigación de mercado completada, 20 agencias identificadas
-- **2026-04-02 AM:** Sistema completo creado (propuesta, flujos, outreach, Airtable)
-- **2026-04-02 PM:** Rebrand a Vinxe, landing page inmobiliaria SEO-optimizada, contenido Instagram Semana 1
+- **2026-04-02 AM:** Sistema completo (propuesta, flujos, outreach, Airtable)
+- **2026-04-02 PM:** Landing page SEO, Instagram contenido, Dashboard Airtable
+- **2026-04-02 Tarde:** Sistema de diseño completo (brand identity, CSS tokens, Tailwind, Figma, voice guide)
 
-**Último backup:** Git commit (pendiente) - Landing + Instagram + skills nuevas
+**Último backup:** Git commit `2f4bb53` - Design system + all project assets
+
+**Total archivos creados:** 15+
+**Skills instaladas:** 20
+**Estado:** Pre-validación, listo para enviar emails
 
 ---
 
