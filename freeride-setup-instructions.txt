@@ -1,0 +1,99 @@
+Asunto: 🔧 Configuración FreeRide - Necesitas API Key de OpenRouter
+
+Hola Ader,
+
+He instalado FreeRide, pero necesito que obtengas una API key gratuita de OpenRouter para completar la configuración.
+
+═══════════════════════════════════════════════════════════
+📋 PASOS PARA CONFIGURAR FREERIDE
+═══════════════════════════════════════════════════════════
+
+PASO 1: Obtener API Key Gratuita
+═══════════════════════════════════════════════════════════
+
+1. Ve a: https://openrouter.ai/keys
+2. Crea una cuenta (es gratis, no necesitas tarjeta de crédito)
+3. Genera una API key
+4. Copia la key (empieza con "sk-or-v1-...")
+
+═══════════════════════════════════════════════════════════
+PASO 2: Configurar en OpenClaw
+═══════════════════════════════════════════════════════════
+
+Opción A - Temporal (solo esta sesión):
+```bash
+export OPENROUTER_API_KEY="sk-or-v1-TU-KEY-AQUI"
+```
+
+Opción B - Permanente (recomendado):
+```bash
+openclaw config set env.OPENROUTER_API_KEY "sk-or-v1-TU-KEY-AQUI"
+```
+
+═══════════════════════════════════════════════════════════
+PASO 3: Ejecutar FreeRide
+═══════════════════════════════════════════════════════════
+
+Una vez tengas la key configurada, ejecuta:
+
+```bash
+# Configurar modelo gratuito + fallbacks automáticos
+freeride auto
+
+# Reiniciar gateway para aplicar cambios
+openclaw gateway restart
+```
+
+═══════════════════════════════════════════════════════════
+✅ QUÉ HACE FREERIDE
+═══════════════════════════════════════════════════════════
+
+• Configura modelos de IA gratuitos de OpenRouter
+• Establece el mejor modelo como primario
+• Configura fallbacks automáticos (si uno falla, usa el siguiente)
+• Reduce costos de IA a $0
+
+Modelos gratuitos disponibles (ejemplos):
+• qwen3-coder:free - Excelente para coding
+• nemotron-3:free - Buen balance
+• deepseek:free - Razonamiento fuerte
+• mistral:free - Fallback confiable
+
+═══════════════════════════════════════════════════════════
+🎯 COMANDOS ÚTILES
+═══════════════════════════════════════════════════════════
+
+freeride auto          # Configuración automática
+freeride list          # Ver modelos gratuitos disponibles
+freeride status        # Ver configuración actual
+freeride switch <model> # Cambiar a modelo específico
+
+═══════════════════════════════════════════════════════════
+⚠️ IMPORTANTE
+═══════════════════════════════════════════════════════════
+
+• Los modelos gratuitos tienen rate limits
+• FreeRide configura múltiples fallbacks automáticamente
+• Si un modelo rate-limited, OpenClaw cambia al siguiente automáticamente
+• Reinicia el gateway después de cualquier cambio:
+  openclaw gateway restart
+
+═══════════════════════════════════════════════════════════
+
+Envíame tu API key cuando la tengas y completo la configuración.
+
+O si prefieres hacerlo tú mismo, solo ejecuta:
+
+```bash
+export OPENROUTER_API_KEY="sk-or-v1-..."
+freeride auto
+openclaw gateway restart
+```
+
+Y listo. Tendrás IA gratuita con fallbacks automáticos.
+
+Saludos,
+CyberClaw
+
+---
+FreeRide instalado en: /home/ubuntu/.openclaw/workspace/skills/free-ride
