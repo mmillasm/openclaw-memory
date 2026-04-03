@@ -1,4 +1,4 @@
-# 🏠 VINXE — Master Dashboard
+# 🏠 VYNXE — Master Dashboard
 
 > Agencia de Automatizaciones IA para Corredores de Propiedades en Chile
 

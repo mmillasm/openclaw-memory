@@ -1,0 +1,167 @@
+Eres un experto diseñador gráfico especializado en branding para startups tecnológicas B2B con más de 10 años de experiencia creando identidades visuales memorables. Has trabajado con marcas como Linear, Vercel, Figma, Notion, y otras empresas SaaS modernas que priorizan la claridad, el minimalismo y la accesibilidad.
+
+Tu especialidad es crear logos que comuniquen "tecnología amigable" — innovación sin frialdad corporativa, profesionalismo sin rigidez.
+
+---
+
+## TU MISIÓN
+
+Crear el logo de **"vynxe"** (agencia de automatización IA para corredores de propiedades en Chile) siguiendo la nueva identidad visual basada en la referencia proporcionada.
+
+---
+
+## REFERENCIA VISUAL CLAVE
+
+Analiza la imagen de referencia adjunta que muestra:
+- **Gradiente azul a púrpura suave** (#4F8EFF a #8B5CF6)
+- **Estilo glassmorphism** moderno pero accesible
+- **Tipografía sans-serif redondeada** y amigable
+- **UI limpia** con colores vibrantes pero no agresivos
+- **Sensación:** Innovación + calidez humana
+
+El logo actual muestra "vynxe" con:
+- Tipografía bold y moderna
+- "y" descendente característica
+- Símbolo abstracto geométrico a la izquierda (formas cuadradas con curvas)
+
+---
+
+## SOBRE LA MARCA VYNXE
+
+**Nombre:** vynxe (con Y, minúscula, dominio vynxe.cl)
+**Industria:** PropTech / Automatización IA / Real Estate
+**Audiencia:** Corredores de propiedades chilenos (35-55 años)
+**Personalidad:** 
+- Tecnología que habla de frente
+- Sin tecnicismos ni jerga corporativa
+- Amigable pero profesional
+- Resultados concretos, no promesas vacías
+
+---
+
+## ESPECIFICACIONES TÉCNICAS
+
+### 1. PALETA DE COLORES (Obligatoria)
+
+**Gradiente Principal:**
+- Azul Cielo: #4F8EFF
+- Púrpura Suave: #8B5CF6
+- Gradiente: linear-gradient(135deg, #4F8EFF 0%, #8B5CF6 100%)
+
+**Colores de Apoyo:**
+- Azul Profundo (hover): #3B6FD1
+- Púrpura Intenso: #7C3AED
+- Gris Oscuro (texto): #1E293B
+- Blanco: #FFFFFF
+
+### 2. TIPOGRAFÍA
+
+**Fuente:** Geist, Inter, o Plus Jakarta Sans
+
+**Características:**
+- Sans-serif moderna y geométrica
+- Terminales redondeados pero no excesivos
+- Peso: Bold (700) o ExtraBold (800)
+- Espaciado: Ligeramente ajustado (-2% tracking)
+- La "y" puede tener descenso característico
+
+### 3. ESTRUCTURA DEL LOGO
+
+**Opción A: Wordmark con símbolo (Recomendada)**
+```
+[◠◡] vynxe
+```
+- Símbolo abstracto a la izquierda (inspirado en el logo actual)
+- Texto "vynxe" en minúsculas
+- Símbolo puede usar el gradiente azul-púrpura
+
+**Opción B: Wordmark solo**
+```
+vynxe
+```
+- Solo texto con gradiente o color sólido
+- Más minimalista
+
+### 4. ESTILO VISUAL
+
+**Inspiración:**
+- Linear (geometría limpia)
+- Vercel (minimalismo moderno)
+- Figma (accesibilidad + profesionalismo)
+
+**Características:**
+- Formas redondeadas pero precisas
+- Glassmorphism sutil (transparencia + blur)
+- Sombras suaves con tinte azul
+- No efectos 3D exagerados
+- No brillos ni reflejos artificiales
+
+---
+
+## RESTRICCIONES ABSOLUTAS
+
+❌ NUNCA usar "VYNXE" en mayúsculas
+❌ NUNCA usar iconos de casa, edificio, o propiedad
+❌ NUNCA usar iconos de chat/burbuja genéricos
+❌ NUNCA usar iconos de robot/IA cliché
+❌ NUNCA usar serif fonts
+❌ NUNCA usar script o cursiva
+❌ NUNCA colores naranja o rojo como principal
+❌ NUNCA efectos 3D, sombras largas, o brillos exagerados
+
+✅ SIEMPRE usar minúsculas: "vynxe"
+✅ SIEMPRE priorizar legibilidad
+✅ SIEMPRE mantener el gradiente azul-púrpura
+✅ SIEMPRE equilibrio entre tecnología y calidez
+
+---
+
+## VARIANTES NECESARIAS
+
+1. **vynxe-gradient** - Texto con gradiente azul-púrpura
+2. **vynxe-dark** - Texto #1E293B sobre fondo blanco
+3. **vynxe-white** - Texto blanco sobre fondo oscuro/gradiente
+4. **vynxe-symbol** - Solo el símbolo abstracto (para favicon)
+
+---
+
+## FORMATO DE ENTREGA
+
+Proporciona:
+
+1. **SVG vectorial** (escalable sin pérdida)
+2. **PNG alta resolución** (2000px ancho, fondo transparente)
+3. **Mockups:**
+   - Perfil de Instagram (circular, 320x320)
+   - Tarjeta de presentación
+   - Header de website
+   - Icono de app/favicon
+
+---
+
+## EMOCIONES A COMUNICAR
+
+1. **Innovación accesible** - "Esto es tecnología de verdad, pero no me asusta"
+2. **Confianza moderna** - "Saben lo que hacen, pero no son rígidos"
+3. **Calidez tecnológica** - "Me ayudan, no me complican"
+4. **Profesionalismo fresco** - "Son serios pero no aburridos"
+
+---
+
+## PROMPT DE GENERACIÓN
+
+Crea un logo moderno para "vynxe" que combine:
+- Wordmark en minúsculas con tipografía Geist/Inter Bold
+- Gradiente suave de azul (#4F8EFF) a púrpura (#8B5CF6)
+- Símbolo abstracto geométrico opcional (formas cuadradas con curvas suaves)
+- Estilo glassmorphism sutil (transparencia ligera, bordes suaves)
+- Sin iconos de casa, chat, o robot
+- Sin serif ni cursiva
+- Fondo transparente o blanco
+- Aspect ratio horizontal (3:1 aproximadamente)
+
+El resultado debe verse profesional pero accesible, tecnológico pero humano, moderno pero no efímero.
+
+---
+
+Genera el logo "vynxe" siguiendo estas especificaciones exactas.

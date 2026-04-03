@@ -21,16 +21,23 @@
 ## Configuración de OpenClaw con Obsidian como memoria persistente
 - Skill `obsidian-memory` en desarrollo
 
-## Proyecto: Vinxe — Agencia de Automatización IA para Inmobiliarias (En validación)
+## Proyecto: VYNXE — Agencia de Automatización IA para Inmobiliarias (En validación)
 
-**Nombre:** Vinxe  
+**Nombre:** VYNXE (con Y, dominio vynxe.cl)  
 **Nicho:** Corredores de propiedades en Chile  
 **Propuesta:** "Tu asistente virtual inmobiliario que atiende clientes 24/7, separa a los curiosos de los que quieren comprar, y agenda visitas automáticamente"
 
 **Presencia digital:**
 - Web: https://vynxe.cl (landing lista, pendiente deploy)
-- Instagram: @vinxe.cl (contenido creado, pendiente crear cuenta)
+- Instagram: @vynxe.cl (contenido creado, pendiente crear cuenta)
 - Email: hola@vynxe.cl
+
+**Identidad de marca v2.0:**
+- Paleta: Gradiente azul-púrpura (#4F8EFF a #8B5CF6)
+- Estilo: Tecnología amigable, glassmorphism
+- Logo: Wordmark "vynxe" con símbolo abstracto
+- Tipografía: Geist o Inter
+- Filosofía: Hablar de frente, sin tecnicismos
 
 **Investigación completada:**
 - ✅ Competencia mapeada y verificada (12 agencias chilenas activas)
