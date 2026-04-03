@@ -1,0 +1,195 @@
+Asunto: Estrategia de Campañas Vinxe - 3 Campañas Mensuales ($50 USD)
+
+Hola Ader,
+
+Adjunto la estrategia actualizada de campañas para Vinxe con el presupuesto de $50 USD mensuales destinados exclusivamente a paid ads.
+
+═══════════════════════════════════════════════════════════
+📈 RESUMEN EJECUTIVO
+═══════════════════════════════════════════════════════════
+
+• Presupuesto: $50 USD/mes (~$45,000 CLP)
+• Herramientas (Canva, hosting): Pagadas por fuera
+• Estrategia: 3 micro-campañas mensuales ("3 Sniper Shots")
+• Meta: 5-8 leads calificados por mes
+
+═══════════════════════════════════════════════════════════
+💰 DISTRIBUCIÓN DEL PRESUPUESTO
+═══════════════════════════════════════════════════════════
+
+Campaña #1 - TEST (Día 5-7 del mes)
+• Gasto: $16 ($5.33/día x 3 días)
+• Objetivo: Validar qué mensaje funciona
+• Targeting: Santiago, 35-55 años, inmobiliaria
+• Meta: 1,500-2,500 impresiones, 1-2 leads
+
+Campaña #2 - OPTIMIZACIÓN (Día 15-17 del mes)
+• Gasto: $17 ($5.66/día x 3 días)
+• Objetivo: Escalar lo que funcionó en Campaña #1
+• Targeting: Lookalike de interacciones previas
+• Meta: 1,500-2,500 impresiones, 2-3 leads
+
+Campaña #3 - CONVERSIÓN (Día 25-27 del mes)
+• Gasto: $17 ($5.66/día x 3 días)
+• Objetivo: Convertir interesados en leads
+• Targeting: Retargeting de quienes vieron Reels
+• Meta: 100-200 clics, 2-3 leads
+
+TOTAL MENSUAL: 9 días de ads, $50 exactos
+
+═══════════════════════════════════════════════════════════
+🎯 METAS REALISTAS 90 DÍAS
+═══════════════════════════════════════════════════════════
+
+Mes 1: 4-7 leads totales (3-5 ads + 1-2 orgánico)
+Mes 2: 6-9 leads totales (4-6 ads + 2-3 orgánico)
+Mes 3: 6-10 leads totales (4-7 ads + 2-3 orgánico)
+
+TOTAL 90 DÍAS: 16-26 leads calificados
+PILOTOS POTENCIALES: 3-5 (20% conversión)
+
+═══════════════════════════════════════════════════════════
+📅 CALENDARIO MES 1 (Ejemplo)
+═══════════════════════════════════════════════════════════
+
+Semana 1 (Día 1-7):
+• Crear Instagram @vinxe.cl
+• Configurar Meta Business Suite
+• Publicar 3 Reels
+• Identificar "winner" (mejor engagement)
+
+Semana 2 (Día 8-14):
+• Preparar Campaña #1
+• LANZAR Campaña #1 (Día 10-12): $16
+• Responder mensajes inmediatamente
+• Documentar learnings
+
+Semana 3 (Día 15-21):
+• Publicar 3 Reels nuevos
+• Engagement orgánico
+• Outreach: 5 cold emails/día
+
+Semana 4 (Día 22-30):
+• Preparar Campaña #2
+• LANZAR Campaña #2 (Día 24-26): $17
+• Análisis mensual completo
+• Follow-up a leads
+
+═══════════════════════════════════════════════════════════
+🎯 SETUP CAMPAnA #1 (TEMPLATE)
+═══════════════════════════════════════════════════════════
+
+Plataforma: Instagram (Meta Ads Manager)
+Objetivo: Engagement (mensajes)
+Presupuesto: $16 total
+Duración: 3 días
+
+TARGETING:
+• Ubicación: Santiago, Chile + 25km
+• Edad: 35-55 años
+• Género: Todos
+• Idiomas: Español
+
+INTERESES DETALLADOS:
+• Real estate
+• Propiedades
+• Inmobiliaria
+• Corredores de propiedades
+• Inversiones inmobiliarias
+• Compra y venta de casas
+
+EXCLUSIONES:
+• Usuarios que ya siguen @vinxe.cl
+• Edades <35 o >55 (ajustar según resultados)
+
+COLOCACIÓN:
+• Solo Instagram Reels (mejor ROI)
+• No incluir Stories ni Feed inicialmente
+
+═══════════════════════════════════════════════════════════
+📊 CRITERIOS DE ÉXITO
+═══════════════════════════════════════════════════════════
+
+CAMPAÑA #1 (Test):
+✅ ÉXITO: >1,500 impresiones, >3% engagement, 1+ lead
+❌ FALLA: <1,000 impresiones, >$1.5 CPC, 0 leads
+
+CAMPAÑA #2 (Optimización):
+✅ ÉXITO: Mejora 20%+ vs Campaña #1
+❌ FALLA: Métricas similares/peores → cambiar creativo
+
+CAMPAÑA #3 (Conversión):
+✅ ÉXITO: >100 clics, >5% conversión landing
+❌ FALLA: <50 clics → revisar audience o creativo
+
+═══════════════════════════════════════════════════════════
+💡 TIPS PARA MAXIMIZAR $50
+═══════════════════════════════════════════════════════════
+
+1. TIMING ESTRATÉGICO
+   • Lanzar campañas Martes-Jueves
+   • Horario: 12:00-14:00 o 19:00-21:00 (Chile)
+
+2. CREATIVO QUE CONVIERTE
+   • Hooks en primera 1-3 segundos
+   • Texto en pantalla (silent viewing)
+   • CTA claro: "Comenta VINXE" o "Link en bio"
+
+3. RESPUESTA INMEDIATA
+   • Durante campañas, estar pendiente del celular
+   • Responder mensajes en <1 hora
+   • Cada mensaje no respondido = lead perdido
+
+4. DOCUMENTACIÓN
+   • Screenshot de resultados finales
+   • Documentar learnings después de cada campaña
+   • Ajustar buyer persona si es necesario
+
+═══════════════════════════════════════════════════════════
+📁 ARCHIVOS ADJUNTOS / REFERENCIAS
+═══════════════════════════════════════════════════════════
+
+Archivo completo de estrategia:
+vinxe-content-strategy-ads-only.md
+
+Ubicación en workspace:
+/home/ubuntu/.openclaw/workspace/
+
+Lead magnets listos:
+• Checklist: "¿Tu Agencia Está Dejando Pasar Clientes?"
+• Calculadora: "¿Cuánto Dinero Dejas de Ganar?"
+• Guía: "Cómo Atender Clientes Rápido"
+• Templates: "10 Mensajes WhatsApp"
+
+Landing page de captura:
+/home/ubuntu/.openclaw/workspace/public/index.html
+
+═══════════════════════════════════════════════════════════
+🚀 PRÓXIMOS PASOS
+═══════════════════════════════════════════════════════════
+
+HOY:
+1. Crear Instagram @vinxe.cl
+2. Configurar Meta Business Suite
+
+MAÑANA:
+3. Grabar 3 Reels (15-30 segundos)
+
+ESTA SEMANA:
+4. Publicar 1 Reel cada 2 días
+5. Monitorear métricas (completion rate, saves, DMs)
+
+DÍA 10-12:
+6. LANZAR Campaña #1 ($16)
+
+═══════════════════════════════════════════════════════════
+
+¿Preguntas sobre la estrategia? Responde a este email o escríbeme por Telegram.
+
+Saludos,
+CyberClaw
+Vinxe - Asistentes Virtuales para Corredores
+
+---
+Nota: Este email fue generado automáticamente desde el workspace de Vinxe.
+Fecha: 3 de abril de 2026
