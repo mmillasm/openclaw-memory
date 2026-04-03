@@ -165,30 +165,35 @@
 | Archivo | Descripción | Estado | Presupuesto |
 |---------|-------------|--------|-------------|
 | `vinxe-content-strategy.md` | Estrategia completa v2.0 (fuentes 2026) | ✅ | $650-950 |
-| `vinxe-content-strategy-bootstrap.md` | **Versión Bootstrap** - $50/mes | ✅ | **$50/mes** ⭐ |
+| `vinxe-content-strategy-bootstrap.md` | Versión Bootstrap - $50/mes | ✅ | $50/mes |
+| `vinxe-content-strategy-ads-only.md` | **$50 PUROS PARA ADS** | ✅ | **$50 ads** ⭐ |
 | `vinxe-content-strategy-revision-fuentes.md` | Análisis de fuentes 2026 | ✅ | - |
 | `vinxe-instagram-contenido.md` | Contenido Semana 1 específico | ✅ | - |
 | `lead-magnets/` | Carpeta con 4 recursos gratuitos | ✅ | - |
 
-**🎯 ESTRATEGIA ACTIVA: VERSIÓN BOOTSTRAP ($50/mes)**
+**🎯 ESTRATEGIA ACTIVA: $50 USD PUROS PARA ADS**
 
-Dado el presupuesto limitado, se adopta la estrategia Bootstrap enfocada en:
-- SEO orgánico como motor principal (tráfico gratis a largo plazo)
-- Outreach directo (cold emails + comunidades)
-- Contenido evergreen de alto valor
-- Micro-boosts estratégicos ($5/semana)
+Los $50 mensuales son exclusivamente para publicidad pagada. Las herramientas (Canva, hosting) se usan en versión gratuita.
 
-**Metas realistas 90 días (Bootstrap):**
-- 10-15 leads generados
+**Filosofía: "Sniper, no shotgun"**
+- Con $50/mes (~$1.67/día) no se pueden tener ads 24/7
+- Se usan en micro-campañas estratégicas de alto impacto
+- Una campaña intensa de 5 días vale más que ads dispersos
+
+**Estrategia Mensual Rotativa:**
+- **Mes 1:** "One Big Shot" - $50 en 5 días ($10/día) en 1 Reel ultra-targeteado
+- **Mes 2:** "Dos Campañas" - $25 awareness + $25 conversión con retargeting
+- **Mes 3:** "LinkedIn InMails" - 10-15 InMails B2B directo
+
+**Metas realistas 90 días ($50 ads + orgánico + outreach):**
+- 8-12 leads generados
 - 150-250 seguidores Instagram
-- 100-200 visitas/mes orgánicas
-- 50-100 email subscribers
+- 100-200 visitas/mes
+- 2-3 pilotos potenciales
 
 **Distribución $50/mes:**
-- Canva Pro: $13
-- Micro-boost Instagram: $20 (1 Reel/semana)
-- Herramientas: $10
-- Reserva: $7
+- Todo para ads: $50 (sin herramientas)
+- Canva: Gratis | Hosting: Usar existente | Email: Gratis
 
 **Lead Magnets creados (todos sin jerga técnica):**
 
