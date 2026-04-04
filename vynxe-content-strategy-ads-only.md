@@ -1,4 +1,4 @@
-# 📈 Estrategia de Contenido Vinxe — $50 USD PUROS PARA ADS
+# 📈 Estrategia de Contenido VYNXE — $50 USD PUROS PARA ADS
 > **Presupuesto: $50/mes exclusivamente para Paid Ads**
 > **Herramientas pagadas por fuera (Canva Pro, hosting)**
 
@@ -49,7 +49,7 @@ Objetivo: Engagement (mensajes)
 Audiencia: Santiago + 25km
 Edad: 35-55
 Intereses: Real estate, Propiedades, Inmobiliaria, Corredores
-Excluir: Usuarios que siguen @vinxe.cl
+Excluir: Usuarios que siguen @vynxe.cl
 Presupuesto: $16 total
 Duración: 3 días
 ```
@@ -157,7 +157,7 @@ Duración: 3 días
 
 ### Semana 1: Setup + Contenido Base
 **Día 1:**
-- [ ] Crear Instagram @vinxe.cl
+- [ ] Crear Instagram @vynxe.cl
 - [ ] Configurar perfil (foto, bio con keywords, link a vynxe.cl)
 - [ ] Conectar a Meta Business Suite
 
@@ -279,7 +279,7 @@ Duración: 3 días
 
 | Día | Tarea |
 |-----|-------|
-| 1 | Crear Instagram @vinxe.cl |
+| 1 | Crear Instagram @vynxe.cl |
 | 2 | Configurar Meta Business Suite |
 | 3 | Grabar 3 Reels |
 | 4 | Publicar Reel #1 |

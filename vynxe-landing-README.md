@@ -4,9 +4,9 @@
 
 | Archivo | Descripción | Tamaño |
 |---------|-------------|--------|
-| `vinxe-landing-inmobiliaria.html` | Landing page completa (HTML/CSS/JS en uno) | ~41KB |
-| `vinxe-sitemap.xml` | Sitemap para Google Search Console | 577B |
-| `vinxe-robots.txt` | Robots.txt con referencia al sitemap | 111B |
+| `vynxe-landing-inmobiliaria.html` | Landing page completa (HTML/CSS/JS en uno) | ~41KB |
+| `vynxe-sitemap.xml` | Sitemap para Google Search Console | 577B |
+| `vynxe-robots.txt` | Robots.txt con referencia al sitemap | 111B |
 
 ---
 
@@ -14,7 +14,7 @@
 
 ### Meta Tags Optimizados
 ```html
-<title>Vinxe — Chatbots IA para Corredores de Propiedades | Chile</title>
+<title>VYNXE — Chatbots IA para Corredores de Propiedades | Chile</title>
 <meta name="description" content="Automatización con IA para corredores de propiedades en Chile. Chatbot WhatsApp que atiende leads 24/7...">
 ```
 
@@ -105,14 +105,14 @@
 ### 1. Subir Archivos al Servidor
 ```bash
 # Subir a tu hosting
-vinxe-landing-inmobiliaria.html → /index.html
-vinxe-sitemap.xml → /sitemap.xml
-vinxe-robots.txt → /robots.txt
+vynxe-landing-inmobiliaria.html → /index.html
+vynxe-sitemap.xml → /sitemap.xml
+vynxe-robots.txt → /robots.txt
 ```
 
 ### 2. Crear Imágenes Necesarias
 - `og-image.jpg` — 1200x630px para Open Graph
-- `logo.png` — Logo Vinxe para Schema
+- `logo.png` — Logo VYNXE para Schema
 - `favicon.svg` — Icono del navegador
 - `apple-touch-icon.png` — 180x180px para iOS
 
@@ -124,7 +124,7 @@ vinxe-robots.txt → /robots.txt
 5. Solicitar indexación de la home
 
 ### 4. Configurar Calendly
-- Reemplazar `https://calendly.com/vinxe/demo` con tu link real
+- Reemplazar `https://calendly.com/vynxe/demo` con tu link real
 - O cambiar por formulario de contacto
 
 ### 5. Configurar Email
@@ -202,7 +202,7 @@ vinxe-robots.txt → /robots.txt
 
 ### Footer
 - Email: `hola@vynxe.cl`
-- Calendly: `https://calendly.com/vinxe/demo`
+- Calendly: `https://calendly.com/vynxe/demo`
 
 ---
 

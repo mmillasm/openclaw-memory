@@ -1,4 +1,4 @@
-# 📈 Estrategia de Contenido Vinxe — VERSIÓN BOOTSTRAP
+# 📈 Estrategia de Contenido VYNXE — VERSIÓN BOOTSTRAP
 > **Presupuesto Limitado: $50 USD/mes (~$45,000 CLP)**
 
 **Versión:** 3.0 (BOOTSTRAP)  
@@ -93,7 +93,7 @@ Con presupuesto limitado, tu ventaja competitiva es el **tiempo y la creatividad
 **Estrategia:**
 - **Blog posts largos** (2,000+ palabras): "Guía completa chatbots inmobiliarios Chile 2026"
 - **Long-tail keywords:** "cómo responder leads inmobiliarios rápido"
-- **Google Business Profile:** Crear perfil gratuito para Vinxe
+- **Google Business Profile:** Crear perfil gratuito para VYNXE
 - **Backlinks:** Pedir menciones en blogs de inmobiliarias
 
 **Meta a 6 meses:** 100-200 visitas orgánicas/mes = 5-10 leads/mes gratis
@@ -104,7 +104,7 @@ Con presupuesto limitado, tu ventaja competitiva es el **tiempo y la creatividad
 
 **Estrategia:**
 - Encontrar 5-10 corredores pequeños en Instagram (1,000-10,000 followers)
-- Proponer colaboración: Ellos prueban Vinxe gratis 1 mes, hacen 1 Reel honesto
+- Proponer colaboración: Ellos prueban VYNXE gratis 1 mes, hacen 1 Reel honesto
 - Tú compartes su contenido
 - **Costo:** $0 (solo tiempo de setup)
 
@@ -230,7 +230,7 @@ Ader
 ## 🚀 LANZAMIENTO RÁPIDO (Próximos 7 días)
 
 ### Día 1-2 (Hoy/Mañana)
-- [ ] Crear cuenta Instagram @vinxe.cl
+- [ ] Crear cuenta Instagram @vynxe.cl
 - [ ] Configurar perfil con keywords
 - [ ] Publicar primer Reel ("3 errores que hacen los corredores")
 
@@ -241,7 +241,7 @@ Ader
 
 ### Día 5-7
 - [ ] Enviar primeros 10 cold emails (GESCOR, Boettcher, etc.)
-- [ ] Crear cuenta LinkedIn para Vinxe (si no existe)
+- [ ] Crear cuenta LinkedIn para VYNXE (si no existe)
 - [ ] Publicar 2 Reels más
 - [ ] Configurar Google Analytics
 

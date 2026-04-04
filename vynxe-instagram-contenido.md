@@ -2,8 +2,8 @@
 
 ## 🎯 PERFIL OPTIMIZADO
 
-**Username:** @vinxe.cl  
-**Nombre:** Vinxe | Automatización con IA  
+**Username:** @vynxe.cl  
+**Nombre:** VYNXE | Automatización con IA  
 **Bio:**
 > 🤖 Agencia de Automatización con IA
 > 💬 Chatbots WhatsApp · Flujos n8n · Integraciones
@@ -105,7 +105,7 @@ La mayoría de las agencias usan las mismas 3 herramientas que cualquiera puede 
 
 Diferencia de costo: $500K/mes vs $30K/mes en tools.
 
-La verdadera ventaja es SABER cómo conectarlas. Y eso es exactamente lo que hacemos en Vinxe.
+La verdadera ventaja es SABER cómo conectarlas. Y eso es exactamente lo que hacemos en VYNXE.
 
 💬 Comenta HERRAMIENTAS y te paso la lista completa con links
 
@@ -175,7 +175,7 @@ El cambio no fue solo digital — fue de calidad de vida.
 
 💬 DM con DEMO y te muestro cómo funciona paso a paso
 
-#CasosDeExito #Automatizacion #InmobiliariaChile #Chatbot #WhatsAppAPI #Productividad #Emprendedores #Vinxe #TransformacionDigital
+#CasosDeExito #Automatizacion #InmobiliariaChile #Chatbot #WhatsAppAPI #Productividad #Emprendedores #VYNXE #TransformacionDigital
 ```
 
 **VISUAL:** Split screen con "ANTES" (Persona estresada, teléfono explotando) vs "DESPUÉS" (Persona tranquila, dashboard organizado). Animaciones simples de números subiendo.
@@ -230,13 +230,13 @@ Configurar un chatbot profesional involucra:
 • Integración con IA (OpenAI)
 • Conexión con calendarios y CRMs
 
-Por eso existe Vinxe. Nosotros hacemos todo el trabajo técnico, tú solo recibes los leads calificados.
+Por eso existe VYNXE. Nosotros hacemos todo el trabajo técnico, tú solo recibes los leads calificados.
 
 Pero si eres de los que les gusta DIY, guarda este post. Es tu blueprint.
 
 👇 Link en bio para que lo hagamos por ti
 
-#Tutorial #Chatbot #WhatsAppBusinessAPI #n8n #Automatizacion #NoCode #LowCode #EmprendedoresChile #TutorialInstagram #Vinxe
+#Tutorial #Chatbot #WhatsAppBusinessAPI #n8n #Automatizacion #NoCode #LowCode #EmprendedoresChile #TutorialInstagram #VYNXE
 ```
 
 **VISUAL:** Screen recording mostrando cada paso simplificado. Flechas, highlights, zoom in en elementos importantes. Voz en off explicando.
@@ -291,7 +291,7 @@ El dato duro: 73% de los consumidores esperan respuesta inmediata. Un chatbot la
 
 💬 ¿Qué otro mito has escuchado? Comenta y lo desmiento
 
-#MitosVsRealidad #Chatbot #InteligenciaArtificial #Automatizacion #Ventas #AtencionAlCliente #Emprendedores #Chile #Vinxe
+#MitosVsRealidad #Chatbot #InteligenciaArtificial #Automatizacion #Ventas #AtencionAlCliente #Emprendedores #Chile #VYNXE
 ```
 
 **VISUAL:** Split screen MITO (en rojo) vs REALIDAD (en verde). Texto animado que cambia. Sonidos de "buzz" incorrecto y "ding" correcto.
@@ -355,7 +355,7 @@ El dato duro: 73% de los consumidores esperan respuesta inmediata. Un chatbot la
 `#Automatizacion` `#Chatbot` `#IA` `#EmprendedoresChile`
 
 **Secundarios (rotar):**
-`#WhatsAppBusiness` `#n8n` `#InteligenciaArtificial` `#Productividad` `#NegociosDigitales` `#Vinxe`
+`#WhatsAppBusiness` `#n8n` `#InteligenciaArtificial` `#Productividad` `#NegociosDigitales` `#VYNXE`
 
 **Nicho específico (cuando aplica):**
 `#InmobiliariaChile` `#AgenciaMarketing` `#Ventas` `#AtencionAlCliente` `#NoCode` `#TransformacionDigital`
@@ -367,7 +367,7 @@ El dato duro: 73% de los consumidores esperan respuesta inmediata. Un chatbot la
 
 ## 🎨 ELEMENTOS VISUALES DE MARCA
 
-**Colores Vinxe:**
+**Colores VYNXE:**
 - Primario: #6366F1 (Índigo)
 - Secundario: #8B5CF6 (Violeta)
 - Acento: #10B981 (Verde éxito)
@@ -399,4 +399,4 @@ Antes de subir cada Reel:
 
 ---
 
-*Documento generado para Vinxe | Semana 1 de contenido*
+*Documento generado para VYNXE | Semana 1 de contenido*

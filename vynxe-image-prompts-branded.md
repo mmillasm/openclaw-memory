@@ -20,13 +20,13 @@ Fondo:     #FAFAFA (Near White)
 
 ### Versión Principal
 ```
-A clean wordmark logo featuring the text "vinxe" in lowercase letters.
+A clean wordmark logo featuring the text "vynxe" in lowercase letters.
 
 Typography:
 - Font: Inter (geometric sans-serif)
 - Weight: 700 (Bold)
 - Tracking: -0.02em (slightly tight letter-spacing)
-- All lowercase: "vinxe" not "VINXE"
+- All lowercase: "vynxe" not "VINXE"
 
 Color:
 - Primary: Indigo #6366F1
@@ -61,7 +61,7 @@ Style: Simple, recognizable at small sizes, no additional graphics
 
 ### Logo en Fondo Oscuro
 ```
-The wordmark "vinxe" in white text on dark background.
+The wordmark "vynxe" in white text on dark background.
 
 Typography:
 - Font: Inter Bold
@@ -102,7 +102,7 @@ Colors:
 - Right: #FAFAFA (near white), #6366F1 (indigo accents)
 
 Text overlay (post-production):
-"vinxe" in Inter Bold, indigo color
+"vynxe" in Inter Bold, indigo color
 "Tu asistente virtual inmobiliario" in Inter Regular, charcoal
 
 Style: Editorial photography, cinematic lighting, authentic not staged
@@ -241,7 +241,7 @@ Interface:
 - Light mode (not dark mode)
 
 Header:
-- Business name: "vinxe"
+- Business name: "vynxe"
 - Status: "En línea" with green dot
 - Profile picture: "v" favicon
 
@@ -625,7 +625,7 @@ Antes de usar cualquier imagen:
 
 - [ ] ¿Los colores están dentro de la paleta (índigo, violeta, grises)?
 - [ ] ¿El estilo fotográfico es auténtico, no stock corporativo genérico?
-- [ ] ¿El logo/wordmark "vinxe" está en minúscula y tipografía Inter?
+- [ ] ¿El logo/wordmark "vynxe" está en minúscula y tipografía Inter?
 - [ ] ¿No hay iconos de casas innecesarios?
 - [ ] ¿La iluminación es natural o suave (no flash duro)?
 - [ ] ¿Las personas lucen reales (no modelos de stock exagerados)?
@@ -647,6 +647,6 @@ Antes de usar cualquier imagen:
 
 ---
 
-*Prompts actualizados según identidad de marca Vinxe*
+*Prompts actualizados según identidad de marca VYNXE*
 *Wordmark puro — Inter — Índigo/Violeta — Fotografía real*
 *Fecha: 2 de abril de 2026*

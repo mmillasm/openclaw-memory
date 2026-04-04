@@ -276,7 +276,7 @@
 ┌─────────────────────────────────────────────────────────────┐
 │  [Indigo Gradient Background]                               │
 │                                                             │
-│  Vinxe Es Tu Asistente 24/7                                 │
+│  VYNXE Es Tu Asistente 24/7                                 │
 │                                                             │
 │  ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐   │
 │  │ 🤖     │ │ 🎯     │ │ 📅     │ │ 📊     │ │ 🔔     │   │
@@ -412,14 +412,14 @@
 ┌─────────────────────────────────────────────────────────────┐
 │  [Dark Background]                                          │
 │                                                             │
-│  [vinxe]                                                    │
+│  [vynxe]                                                    │
 │  Especialistas en automatización para inmobiliarias         │
 │                                                             │
 │  Servicios    Empresa    Legal                              │
 │  - Item 1     - Item 1   - Privacidad                       │
 │  - Item 2     - Item 2   - Términos                         │
 │                                                             │
-│  © 2026 Vinxe. Todos los derechos reservados.               │
+│  © 2026 VYNXE. Todos los derechos reservados.               │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -490,7 +490,7 @@ Gutter: 16px
 ### Chat Preview Component
 ```
 ┌──────────────────────────────────┐
-│ ● vinxe                    9:41  │
+│ ● vynxe                    9:41  │
 ├──────────────────────────────────┤
 │                                  │
 │  ┌────────────────────────┐      │
@@ -572,7 +572,7 @@ Agregar notas:
 ```
 📝 NOTAS DE DISEÑO:
 
-- Logo: Wordmark puro "vinxe" en minúscula
+- Logo: Wordmark puro "vynxe" en minúscula
 - Tipografía: Inter (Google Fonts)
 - Colores primarios: Indigo #6366F1, Violeta #8B5CF6
 - NO usar iconos de casas
@@ -595,7 +595,7 @@ Agregar notas:
 - [ ] Assets exportables marcados
 
 ### Antes de compartir:
-- [ ] Todos los textos son "vinxe" (minúscula)
+- [ ] Todos los textos son "vynxe" (minúscula)
 - [ ] No hay iconos de casas
 - [ ] Colores son los de la paleta
 - [ ] Tipografía es Inter
@@ -604,6 +604,6 @@ Agregar notas:
 
 ---
 
-*Estructura Figma para Vinxe*
+*Estructura Figma para VYNXE*
 *Wordmark puro — Inter — Índigo/Violeta*
 *Fecha: 2 de abril de 2026*

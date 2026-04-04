@@ -5,7 +5,7 @@
 
 ## 🎯 IDENTIDAD DEL PROYECTO
 
-**Nombre:** Vinxe  
+**Nombre:** VYNXE  
 **Tipo:** Agencia de Automatizaciones con IA  
 **Nicho:** Corredores de propiedades en Chile  
 **Propuesta de valor:** "Tu asistente virtual inmobiliario que atiende clientes 24/7, separa a los curiosos de los que quieren comprar, y agenda visitas automáticamente"  
@@ -14,11 +14,11 @@
 
 **Presencia Digital:**
 - **Sitio web:** https://vynxe.cl (landing lista, pendiente deploy)
-- **Instagram:** @vinxe.cl (contenido creado, pendiente cuenta)
+- **Instagram:** @vynxe.cl (contenido creado, pendiente cuenta)
 - **Email:** hola@vynxe.cl
 
 **Identidad de Marca (Actualizado):**
-- **Logo:** Wordmark puro "vinxe" en minúscula (sin iconos, sin casas)
+- **Logo:** Wordmark puro "vynxe" en minúscula (sin iconos, sin casas)
 - **Tipografía:** Inter (display + body)
 - **Colores:** Indigo #6366F1, Violeta #8B5CF6
 - **Voz:** Directa, Útil, Humana
@@ -277,27 +277,27 @@
 **Estado:** Finalizado y documentado
 
 **Identidad de Marca:**
-- **Archivo:** `vinxe-brand-identity.md`
-- **Logo:** Wordmark puro "vinxe" en minúscula (sin iconos, sin casas)
+- **Archivo:** `vynxe-brand-identity.md`
+- **Logo:** Wordmark puro "vynxe" en minúscula (sin iconos, sin casas)
 - **Tipografía:** Inter (Google Fonts)
 - **Paleta:** Indigo #6366F1, Violeta #8B5CF6, Near Black #1F2937
 - **Voz:** Directa, Útil, Humana
 - **Regla clave:** Sin jerga técnica ("clientes" no "leads")
 
 **Design Tokens:**
-- **CSS:** `vinxe-design-tokens.css` — Variables CSS completas
-- **Tailwind:** `vinxe-tailwind.config.js` — Configuración lista para usar
-- **Figma:** `vinxe-figma-structure.md` — Estructura de páginas + wireframes
+- **CSS:** `vynxe-design-tokens.css` — Variables CSS completas
+- **Tailwind:** `vynxe-tailwind.config.js` — Configuración lista para usar
+- **Figma:** `vynxe-figma-structure.md` — Estructura de páginas + wireframes
 
 **Guía de Voz por Canal:**
-- **Archivo:** `vinxe-voice-guide.md`
+- **Archivo:** `vynxe-voice-guide.md`
 - Emails: 4 templates (inicial + 3 follow-ups)
 - Instagram: Captions, stories, carousels
 - Landing: Copy por sección
 - WhatsApp: Respuestas del bot
 
 **Prompts de Imágenes:**
-- **Archivo:** `vinxe-image-prompts-branded.md`
+- **Archivo:** `vynxe-image-prompts-branded.md`
 - Logo wordmark (3 versiones)
 - OG Image 1200x630
 - Hero image landing
@@ -306,10 +306,10 @@
 
 ### Landing Page (vynxe.cl)
 **Estado:** Completada y lista para deploy  
-**Archivo:** `vinxe-landing-inmobiliaria.html`
+**Archivo:** `vynxe-landing-inmobiliaria.html`
 
 **SEO implementado:**
-- Title: "Vinxe — Chatbots IA para Corredores de Propiedades | Chile" (58 chars)
+- Title: "VYNXE — Chatbots IA para Corredores de Propiedades | Chile" (58 chars)
 - Meta description optimizado (155 chars)
 - Open Graph tags para Facebook/LinkedIn
 - Twitter Cards
@@ -333,12 +333,12 @@
 - WhatsApp Business inmobiliaria
 - IA inmobiliaria Chile
 
-### Instagram (@vinxe.cl)
+### Instagram (@vynxe.cl)
 **Estado:** Estrategia y contenido creado (2 versiones)
 
 **Perfil optimizado:**
-- Username: @vinxe.cl
-- Nombre: Vinxe | Asistente Virtual para Inmobiliarias
+- Username: @vynxe.cl
+- Nombre: VYNXE | Asistente Virtual para Inmobiliarias
 - Bio: 🤖 Tu asistente responde WhatsApp por ti / 📍 Especialistas en corredores de Chile / ⚡ Atiende clientes 24/7
 
 **5 Reels creados (Versión Simple - sin tecnicismos):**
@@ -359,8 +359,8 @@
 - 7 Stories diarios
 
 **Archivos:**
-- `vinxe-instagram-simple.md` — Versión accesible (recomendada)
-- `vinxe-instagram-contenido.md` — Versión técnica (backup)
+- `vynxe-instagram-simple.md` — Versión accesible (recomendada)
+- `vynxe-instagram-contenido.md` — Versión técnica (backup)
 
 ---
 
@@ -381,23 +381,23 @@
 - `cold-email-system/airtable/` - Scripts de integración
 
 ### Marketing Digital
-- `vinxe-landing-inmobiliaria.html` - Landing page (SEO optimizada)
-- `vinxe-sitemap.xml` + `vinxe-robots.txt` - SEO técnico
-- `vinxe-landing-README.md` - Guía de la landing
-- `vinxe-instagram-simple.md` - Contenido Instagram (lenguaje simple)
-- `vinxe-instagram-contenido.md` - Contenido Instagram (técnico)
+- `vynxe-landing-inmobiliaria.html` - Landing page (SEO optimizada)
+- `vynxe-sitemap.xml` + `vynxe-robots.txt` - SEO técnico
+- `vynxe-landing-README.md` - Guía de la landing
+- `vynxe-instagram-simple.md` - Contenido Instagram (lenguaje simple)
+- `vynxe-instagram-contenido.md` - Contenido Instagram (técnico)
 
 ### Identidad de Marca & Diseño
-- `vinxe-brand-identity.md` - Guía de identidad completa
-- `vinxe-design-tokens.css` - Tokens CSS
-- `vinxe-tailwind.config.js` - Configuración Tailwind
-- `vinxe-figma-structure.md` - Estructura Figma
-- `vinxe-voice-guide.md` - Guía de voz por canal
-- `vinxe-image-prompts-branded.md` - Prompts de imágenes
+- `vynxe-brand-identity.md` - Guía de identidad completa
+- `vynxe-design-tokens.css` - Tokens CSS
+- `vynxe-tailwind.config.js` - Configuración Tailwind
+- `vynxe-figma-structure.md` - Estructura Figma
+- `vynxe-voice-guide.md` - Guía de voz por canal
+- `vynxe-image-prompts-branded.md` - Prompts de imágenes
 
 ### Knowledge Base
-- `vinxe-agent.md` - Este archivo
-- `vinxe-agent-quickref.md` - Quick reference card
+- `vynxe-agent.md` - Este archivo
+- `vynxe-agent-quickref.md` - Quick reference card
 
 ### Configuraciones
 - Email SMTP: disenoxplain@gmail.com

@@ -2,8 +2,8 @@
 
 ## 🎯 PERFIL OPTIMIZADO
 
-**Username:** @vinxe.cl  
-**Nombre:** Vinxe | Asistente Virtual para Inmobiliarias  
+**Username:** @vynxe.cl  
+**Nombre:** VYNXE | Asistente Virtual para Inmobiliarias  
 **Bio:**
 > 🤖 Tu asistente responde WhatsApp por ti
 > 📍 Especialistas en corredores de Chile
@@ -63,7 +63,7 @@ Su cambio: de 3 horas diarias pegado al celular → 20 minutos revisando visitas
 
 💬 ¿Hasta qué hora respondes mensajes hoy?
 
-#InmobiliariaChile #CorredorPropiedades #AsistenteVirtual #WhatsApp #Productividad #VendeMas #Chile #Santiago #NegocioInmobiliario #Vinxe
+#InmobiliariaChile #CorredorPropiedades #AsistenteVirtual #WhatsApp #Productividad #VendeMas #Chile #Santiago #NegocioInmobiliario #VYNXE
 ```
 
 **VISUAL:** Grabación de pantalla mostrando WhatsApp lleno de mensajes vs. Calendario organizado con visitas agendadas.
@@ -108,7 +108,7 @@ Las agencias grandes usan herramientas que cualquiera puede configurar:
 
 Diferencia: $500 mil pesos al mes vs. $30 mil en herramientas.
 
-La clave es SABER cómo conectarlo todo. Y eso es exactamente lo que hacemos en Vinxe.
+La clave es SABER cómo conectarlo todo. Y eso es exactamente lo que hacemos en VYNXE.
 
 💬 Comenta "QUIERO" y te paso la lista completa
 
@@ -178,7 +178,7 @@ El cambio no fue solo digital — fue de calidad de vida.
 
 💬 Mensaje directo con DEMO y te muestro cómo funciona paso a paso
 
-#CasoDeExito #InmobiliariaChile #CorredorPropiedades #AsistenteVirtual #Productividad #Emprendedores #Vinxe
+#CasoDeExito #InmobiliariaChile #CorredorPropiedades #AsistenteVirtual #Productividad #Emprendedores #VYNXE
 ```
 
 **VISUAL:** Split screen con "ANTES" (persona estresada, teléfono explotando) vs "DESPUÉS" (persona tranquila, calendario organizado).
@@ -235,11 +235,11 @@ Configurar un asistente profesional involucra:
 • Conectar con sistemas de inteligencia artificial
 • Enlazar con tu calendario
 
-Por eso existe Vinxe. Nosotros hacemos todo el trabajo técnico, tú solo recibes los clientes calificados listos para visitar.
+Por eso existe VYNXE. Nosotros hacemos todo el trabajo técnico, tú solo recibes los clientes calificados listos para visitar.
 
 👇 Link en mi perfil para que lo hagamos por ti
 
-#Tutorial #AsistenteVirtual #WhatsAppNegocios #Automatizar #SinCodigo #EmprendedoresChile #Corredor #Vinxe
+#Tutorial #AsistenteVirtual #WhatsAppNegocios #Automatizar #SinCodigo #EmprendedoresChile #Corredor #VYNXE
 ```
 
 **VISUAL:** Animación simple mostrando los 3 pasos. Flechas, highlights, texto grande en pantalla.
@@ -294,7 +294,7 @@ El dato: 73% de las personas espera respuesta inmediata. Un asistente la da. Una
 
 💬 ¿Qué otro mito has escuchado? Comenta y lo desmiento
 
-#MitosVsRealidad #AsistenteVirtual #InteligenciaArtificial #Automatizar #Ventas #AtencionAlCliente #Emprendedores #Chile #Vinxe
+#MitosVsRealidad #AsistenteVirtual #InteligenciaArtificial #Automatizar #Ventas #AtencionAlCliente #Emprendedores #Chile #VYNXE
 ```
 
 **VISUAL:** Split screen MITO (en rojo) vs REALIDAD (en verde). Texto animado. Sonidos de "error" y "correcto".
@@ -358,7 +358,7 @@ El dato: 73% de las personas espera respuesta inmediata. Un asistente la da. Una
 `#InmobiliariaChile` `#CorredorPropiedades` `#AsistenteVirtual` `#EmprendedoresChile`
 
 **Secundarios (rotar):**
-`#WhatsAppNegocios` `#Productividad` `#VendeMas` `#NegocioInmobiliario` `#Vinxe`
+`#WhatsAppNegocios` `#Productividad` `#VendeMas` `#NegocioInmobiliario` `#VYNXE`
 
 **Nicho específico (cuando aplica):**
 `#AgenciaInmobiliaria` `#Corredor` `#Santiago` `#LasCondes` `#Vitacura`
@@ -370,7 +370,7 @@ El dato: 73% de las personas espera respuesta inmediata. Un asistente la da. Una
 
 ## 🎨 ELEMENTOS VISUALES DE MARCA
 
-**Colores Vinxe:**
+**Colores VYNXE:**
 - Primario: #6366F1 (Índigo)
 - Secundario: #8B5CF6 (Violeta)
 - Acento: #10B981 (Verde éxito)

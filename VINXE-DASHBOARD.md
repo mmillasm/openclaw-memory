@@ -1,10 +1,10 @@
 # 🏠 VYNXE — Master Dashboard
 
-> Agencia de Automatizaciones IA para Corredores de Propiedades en Chile
+> Tecnología de automatización con IA accesible para pymes chilenas
 
-**Última actualización:** 2 de abril de 2026, 03:15 UTC  
-**Estado general:** Pre-validación (listo para contactar agencias)  
-**Próximo hito:** 5 entrevistas de validación + 2 pilotos
+**Última actualización:** 4 de abril de 2026, 01:40 UTC  
+**Estado general:** Pre-validación — VYNXE Inmobiliarias  
+**Próximo hito:** 5 entrevistas de validación + 2 pilotos (vertical Inmobiliarias)
 
 ---
 
@@ -18,6 +18,34 @@
 | 📧 Outreach | ⚠️ Listo | 90% (falta enviar) |
 | 🌐 Marketing Digital | ✅ Completo | 100% |
 | 🤖 Automatización | ⚠️ Parcial | 70% |
+| 🏢 Marca multi-vertical | ✅ Actualizado | 100% |
+
+---
+
+## 🏢 Arquitectura de Marcas
+
+```
+VYNXE (marca padre)
+├── VYNXE Inmobiliarias  ← VERTICAL ACTIVA (en validación)
+├── VYNXE Salud           ← Próxima vertical
+├── VYNXE Retail          ← En planeación
+└── VYNXE Services       ← En planeación
+```
+
+### Verticales — Visión General
+
+| Vertical | Mercado Target | Dolor Principal | Estado |
+|----------|---------------|------------------|--------|
+| **VYNXE Inmobiliarias** | Corredores de propiedades (1-10) | WhatsApp consume noches y fines de semana | 🟢 En validación |
+| **VYNXE Salud** | Clínicas, dentistas, psicólogos (1-5 profesionales) | Horas confirmando citas, 30% inasistencias | 🟡 Próxima |
+| **VYNXE Retail** | Tiendas retail (1-10 empleados) | Pierden ventas por no responder a tiempo | 🟡 Planeación |
+| **VYNXE Services** | Peluquerías, talleres, servicios (1-10 personas) | Agenda se empty por falta de confirmación | 🟡 Planeación |
+
+**Stack técnico:** Igual para todas las verticales — WhatsApp Business API + n8n + GPT-4o mini + Google Calendar + Airtable.
+
+**Lo que cambia por vertical:** Flujos de conversación, templates de preguntas, scoring de leads, landing pages, contenido Instagram, emails fríos.
+
+**Lo que se reutiliza:** Infraestructura, marca, pricing (adaptado), template de propuestas, sistema de Outreach.
 
 ---
 
@@ -27,8 +55,8 @@
 
 | Archivo | Descripción | Estado | Última modificación |
 |---------|-------------|--------|---------------------|
-| `vinxe-agent.md` | Knowledge base completo del proyecto | ✅ | 2026-04-02 |
-| `vinxe-agent-quickref.md` | Quick reference card (cheat sheet) | ✅ | 2026-04-02 |
+| `vynxe-agent.md` | Knowledge base completo del proyecto | ✅ | 2026-04-02 |
+| `vynxe-agent-quickref.md` | Quick reference card (cheat sheet) | ✅ | 2026-04-02 |
 
 **Ubicación:** `/home/ubuntu/.openclaw/workspace/`
 
@@ -77,13 +105,16 @@
 
 ### 4. 💼 Comercial & Pricing
 
-| Concepto | Valor |
-|----------|-------|
-| **Starter** | $199,000 CLP/mes (1-2 corredores) |
-| **Pro** | $399,000 CLP/mes (3-8 corredores) ⭐ TARGET |
-| **Agency** | $799,000 CLP/mes (9+ corredores) |
-| Setup inicial | $300,000 - $600,000 CLP |
-| ROI para cliente | 1,400% mensual (Paquete Pro) |
+**Pricing por Vertical:**
+
+| Plan | VYNXE Inmobiliarias | VYNXE Salud | VYNXE Retail | VYNXE Services |
+|------|---------------------|-------------|--------------|----------------|
+| **Starter** | $199K/mes (1-2) | $199K/mes (1-2) | $149K/mes (1-3) | $149K/mes (1-2) |
+| **Pro** ⭐ | $399K/mes (3-8) | $399K/mes (3-5) | $299K/mes (4-10) | $299K/mes (3-7) |
+| **Agency** | $799K/mes (9+) | $799K/mes (6+) | $599K/mes (10+) | $599K/mes (8+) |
+| Setup | $300-600K | $300-600K | $200-400K | $200-400K |
+
+*Pricing validado para Inmobiliarias. Las demás verticales son estimaciones basadas en mercado.*
 
 **Documentos:**
 - Propuesta comercial: `propuesta-mvp-chatbot-corredores.md`
@@ -130,13 +161,13 @@
 
 | Archivo | Descripción | Estado |
 |---------|-------------|--------|
-| `vinxe-landing-inmobiliaria.html` | Landing page completa (~41KB) | ✅ |
-| `vinxe-sitemap.xml` | Sitemap para Google Search Console | ✅ |
-| `vinxe-robots.txt` | Robots.txt con referencia | ✅ |
-| `vinxe-landing-README.md` | Documentación de la landing | ✅ |
+| `vynxe-landing-inmobiliaria.html` | Landing page completa (~41KB) | ✅ |
+| `vynxe-sitemap.xml` | Sitemap para Google Search Console | ✅ |
+| `vynxe-robots.txt` | Robots.txt con referencia | ✅ |
+| `vynxe-landing-README.md` | Documentación de la landing | ✅ |
 
 **SEO implementado:**
-- Title: "Vinxe — Chatbots IA para Corredores de Propiedades | Chile" (58 chars) ✅
+- Title: "VYNXE — Chatbots IA para Corredores de Propiedades | Chile" (58 chars) ✅
 - Meta description: 155 chars ✅
 - Open Graph tags ✅
 - Twitter Cards ✅
@@ -164,11 +195,11 @@
 
 | Archivo | Descripción | Estado | Presupuesto |
 |---------|-------------|--------|-------------|
-| `vinxe-content-strategy.md` | Estrategia completa v2.0 (fuentes 2026) | ✅ | $650-950 |
-| `vinxe-content-strategy-bootstrap.md` | Versión Bootstrap - $50/mes | ✅ | $50/mes |
-| `vinxe-content-strategy-ads-only.md` | **$50 PUROS PARA ADS** | ✅ | **$50 ads** ⭐ |
-| `vinxe-content-strategy-revision-fuentes.md` | Análisis de fuentes 2026 | ✅ | - |
-| `vinxe-instagram-contenido.md` | Contenido Semana 1 específico | ✅ | - |
+| `vynxe-content-strategy.md` | Estrategia completa v2.0 (fuentes 2026) | ✅ | $650-950 |
+| `vynxe-content-strategy-bootstrap.md` | Versión Bootstrap - $50/mes | ✅ | $50/mes |
+| `vynxe-content-strategy-ads-only.md` | **$50 PUROS PARA ADS** | ✅ | **$50 ads** ⭐ |
+| `vynxe-content-strategy-revision-fuentes.md` | Análisis de fuentes 2026 | ✅ | - |
+| `vynxe-instagram-contenido.md` | Contenido Semana 1 específico | ✅ | - |
 | `lead-magnets/` | Carpeta con 4 recursos gratuitos | ✅ | - |
 
 **🎯 ESTRATEGIA ACTIVA: $50 USD PUROS PARA ADS**
@@ -199,10 +230,10 @@ Los $50 mensuales son exclusivamente para publicidad pagada. Las herramientas (C
 
 | # | Lead Magnet | Archivo | Formato | Propósito |
 |---|-------------|---------|---------|-----------|
-| 1 | Checklist: "¿Tu Agencia Está Dejando Pasar Clientes?" | `vinxe-checklist-dejando-pasar-clientes.md` | PDF (pendiente) | Auto-evaluación 15 preguntas |
-| 2 | Calculadora: "¿Cuánto Dinero Dejas de Ganar?" | `vinxe-calculadora-dinero-perdido.md` | Sheets/PDF (pendiente) | Descubre pérdidas mensuales |
-| 3 | Guía: "Cómo Atender Clientes Rápido..." | `vinxe-guia-atender-clientes-rapido.md` | PDF (pendiente) | Guía completa 20+ páginas |
-| 4 | Templates: "10 Mensajes Listos para WhatsApp" | `vinxe-10-mensajes-whatsapp.md` | PDF/Doc (pendiente) | Copiar y pegar |
+| 1 | Checklist: "¿Tu Agencia Está Dejando Pasar Clientes?" | `vynxe-checklist-dejando-pasar-clientes.md` | PDF (pendiente) | Auto-evaluación 15 preguntas |
+| 2 | Calculadora: "¿Cuánto Dinero Dejas de Ganar?" | `vynxe-calculadora-dinero-perdido.md` | Sheets/PDF (pendiente) | Descubre pérdidas mensuales |
+| 3 | Guía: "Cómo Atender Clientes Rápido..." | `vynxe-guia-atender-clientes-rapido.md` | PDF (pendiente) | Guía completa 20+ páginas |
+| 4 | Templates: "10 Mensajes Listos para WhatsApp" | `vynxe-10-mensajes-whatsapp.md` | PDF/Doc (pendiente) | Copiar y pegar |
 
 **Lenguaje usado (cero jerga técnica):**
 - ❌ "Lead" → ✅ "cliente potencial"
@@ -238,11 +269,11 @@ Los $50 mensuales son exclusivamente para publicidad pagada. Las herramientas (C
 - 200 email subscribers
 - >5% engagement rate
 
-#### 6.3 Instagram (@vinxe.cl)
+#### 6.3 Instagram (@vynxe.cl)
 
 **Perfil optimizado:**
-- Username: @vinxe.cl
-- Nombre: Vinxe | IA para Inmobiliarias
+- Username: @vynxe.cl
+- Nombre: VYNXE | IA para Inmobiliarias
 - Bio: 🤖 Chatbots IA para Corredores de Propiedades / 📍 Chile / Especialistas inmobiliarios
 
 **5 Reels creados:**
@@ -368,7 +399,7 @@ Los $50 mensuales son exclusivamente para publicidad pagada. Las herramientas (C
 
 ### Presencia Digital
 - **Web:** https://vynxe.cl
-- **Instagram:** @vinxe.cl (pendiente crear)
+- **Instagram:** @vynxe.cl (pendiente crear)
 - **Email:** hola@vynxe.cl
 - **Email operativo:** disenoxplain@gmail.com
 
@@ -378,9 +409,9 @@ Los $50 mensuales son exclusivamente para publicidad pagada. Las herramientas (C
 - **Git:** Respaldo automático configurado
 
 ### Git Commits Recientes
-- `cde4cd7` — Update Vinxe Agent: landing + Instagram + skills nuevas
+- `cde4cd7` — Update VYNXE Agent: landing + Instagram + skills nuevas
 - `99ad967` — Agencia IA + Cold Email System + Airtable integration
-- `74b2544` — Add Vinxe Agent knowledge base
+- `74b2544` — Add VYNXE Agent knowledge base
 
 ---
 
@@ -401,6 +432,25 @@ Los $50 mensuales son exclusivamente para publicidad pagada. Las herramientas (C
 - Horario: Solo 9 AM - 6 PM hora Chile
 - Unsubscribe: Incluir en follow-ups
 - No re-enviar a "no interesado"
+
+---
+
+## 📚 Archivos de Marca (Actualizados Abril 2026)
+
+| Archivo | Descripción | Última modificación |
+|---------|-------------|---------------------|
+| `vynxe-brand-identity.md` | Guía de identidad completa — 4 verticales | 2026-04-04 |
+| `vynxe-voice-guide.md` | Guía de voz por canal y vertical | 2026-04-04 |
+| `VINXE-DASHBOARD.md` | Este archivo — índice maestro | 2026-04-04 |
+
+### Navegador de Verticales
+
+| Vertical | Landing | Email Frío | Instagram | Flujo Bot |
+|----------|---------|------------|-----------|-----------|
+| Inmobiliarias | ✅ Listo | ✅ Listo | ✅ Listo | ✅ Listo |
+| Salud | ⏳ Pendiente | ✅ Listo | ✅ Listo | ✅ Listo |
+| Retail | ⏳ Pendiente | ✅ Listo | ✅ Listo | ✅ Listo |
+| Services | ⏳ Pendiente | ✅ Listo | ✅ Listo | ✅ Listo |
 
 ---
 

@@ -53,10 +53,10 @@
 - ✅ 10 agencias importadas al pipeline
 
 **Marketing digital:**
-- ✅ Landing page SEO-optimizada (`vinxe-landing-inmobiliaria.html`)
+- ✅ Landing page SEO-optimizada (`vynxe-landing-inmobiliaria.html`)
 - ✅ Contenido Instagram Semana 1 (5 Reels + 2 Carousels + 7 Stories)
-- ✅ Versión simple sin tecnicismos (`vinxe-instagram-simple.md`)
-- ✅ Perfil optimizado: @vinxe.cl
+- ✅ Versión simple sin tecnicismos (`vynxe-instagram-simple.md`)
+- ✅ Perfil optimizado: @vynxe.cl
 
 **Dashboard en vivo:**
 - URL: https://airtable.com/apptwVpujukA0sS1U
@@ -72,7 +72,7 @@
 **Próximos pasos:**
 1. ✅ Crear base en Airtable e importar agencias (COMPLETADO)
 2. ⏳ Enviar primer lote cold emails (5 agencias ALTA: GESCOR, Boettcher, URBANI, Houm, Altea)
-3. ⏳ Crear cuenta Instagram @vinxe.cl y publicar contenido Semana 1
+3. ⏳ Crear cuenta Instagram @vynxe.cl y publicar contenido Semana 1
 4. ⏳ Subir landing page a vynxe.cl + crear imágenes (og-image, logo)
 5. ⏳ Completar 5 entrevistas de validación (Semana 1-2)
 6. ⏳ Validar disposición a pagar $399K/mes
@@ -98,30 +98,30 @@
 - `cold-email-system/agencias.csv` - 10 agencias priorizadas
 
 **Marketing:**
-- `vinxe-content-strategy.md` - Estrategia de contenido 360° completa (90 días, 20K+ palabras)
-- `vinxe-landing-inmobiliaria.html` - Landing page completa (SEO optimizada)
-- `vinxe-sitemap.xml` + `vinxe-robots.txt` - SEO técnico
-- `vinxe-instagram-simple.md` - Contenido Instagram Semana 1 (lenguaje simple)
-- `vinxe-instagram-contenido.md` - Contenido versión técnica
+- `vynxe-content-strategy.md` - Estrategia de contenido 360° completa (90 días, 20K+ palabras)
+- `vynxe-landing-inmobiliaria.html` - Landing page completa (SEO optimizada)
+- `vynxe-sitemap.xml` + `vynxe-robots.txt` - SEO técnico
+- `vynxe-instagram-simple.md` - Contenido Instagram Semana 1 (lenguaje simple)
+- `vynxe-instagram-contenido.md` - Contenido versión técnica
 - `lead-magnets/` - 4 recursos gratuitos sin jerga técnica:
-  - `vinxe-checklist-dejando-pasar-clientes.md`
-  - `vinxe-calculadora-dinero-perdido.md`
-  - `vinxe-guia-atender-clientes-rapido.md`
-  - `vinxe-10-mensajes-whatsapp.md`
+  - `vynxe-checklist-dejando-pasar-clientes.md`
+  - `vynxe-calculadora-dinero-perdido.md`
+  - `vynxe-guia-atender-clientes-rapido.md`
+  - `vynxe-10-mensajes-whatsapp.md`
 
 **Documentación:**
 - `VINXE-DASHBOARD.md` - Índice maestro de todo el proyecto
-- `vinxe-agent.md` - Knowledge base completo
-- `vinxe-agent-quickref.md` - Quick reference card
+- `vynxe-agent.md` - Knowledge base completo
+- `vynxe-agent-quickref.md` - Quick reference card
 - `memory/2026-04-02.md` - Detalle completo de sesión
 
 **Sistema de Diseño:**
-- `vinxe-brand-identity.md` - Identidad de marca (wordmark puro)
-- `vinxe-design-tokens.css` - Tokens CSS (colores, tipografía, espaciado)
-- `vinxe-tailwind.config.js` - Configuración Tailwind completa
-- `vinxe-figma-structure.md` - Estructura de páginas y componentes Figma
-- `vinxe-voice-guide.md` - Guía de voz por canal (emails, Instagram, web)
-- `vinxe-image-prompts-branded.md` - Prompts de imágenes para la marca
+- `vynxe-brand-identity.md` - Identidad de marca (wordmark puro)
+- `vynxe-design-tokens.css` - Tokens CSS (colores, tipografía, espaciado)
+- `vynxe-tailwind.config.js` - Configuración Tailwind completa
+- `vynxe-figma-structure.md` - Estructura de páginas y componentes Figma
+- `vynxe-voice-guide.md` - Guía de voz por canal (emails, Instagram, web)
+- `vynxe-image-prompts-branded.md` - Prompts de imágenes para la marca
 
 **Skills instaladas (16 total):**
 - Producto: client-intake-bot-pro, voiceflow, whatsapp-business-api, n8n, lead-scorer

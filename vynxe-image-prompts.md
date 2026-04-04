@@ -8,7 +8,7 @@
 
 ### Versión A: Minimalista Moderno
 ```
-A minimalist logo for "Vinxe", an AI automation agency for real estate. 
+A minimalist logo for "VYNXE", an AI automation agency for real estate. 
 Clean geometric design combining a house silhouette with a chat bubble or 
 robot head. Primary colors: indigo (#6366F1) and violet (#8B5CF6). 
 Simple, memorable, scalable. White background. Flat design style. 
@@ -17,7 +17,7 @@ Professional tech startup aesthetic. No text, just the icon.
 
 ### Versión B: Abstracto Tech
 ```
-Abstract geometric logo for an AI real estate automation company called Vinxe. 
+Abstract geometric logo for an AI real estate automation company called VYNXE. 
 Interlocking shapes suggesting connection, automation, and homes. 
 Gradient from indigo to violet. Modern, sleek, professional. 
 Suitable for app icon and website favicon. Vector style. Clean lines.
@@ -43,7 +43,7 @@ looking at a phone with too many notifications. Right side shows
 the same agent relaxed, with a sleek dashboard showing organized 
 property viewings and happy client icons. 
 
-Center text area (leave empty for overlay): "Vinxe - Tu Asistente Virtual Inmobiliario"
+Center text area (leave empty for overlay): "VYNXE - Tu Asistente Virtual Inmobiliario"
 
 Colors: indigo (#6366F1), violet (#8B5CF6), white. 
 Modern, clean, professional. Tech-meets-real-estate aesthetic. 
@@ -118,7 +118,7 @@ Space on right for text. 16:9 aspect ratio.
 ### Conversación Realista
 ```
 A realistic WhatsApp Business chat interface mockup showing 
-a conversation between "Vinxe Inmobiliaria" and a potential buyer.
+a conversation between "VYNXE Inmobiliaria" and a potential buyer.
 
 Chat shows:
 - Client: "Hola, vi una propiedad en Las Condes. ¿Está disponible?"
@@ -240,7 +240,7 @@ Suitable for "How it works" section of website.
 
 ## ✅ CHECKLIST DE IMÁGENES NECESARIAS
 
-Para lanzar Vinxe necesitas:
+Para lanzar VYNXE necesitas:
 
 - [ ] Logo (favicon, perfil social, web)
 - [ ] OG Image 1200x630 (compartir en redes)
